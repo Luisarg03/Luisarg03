@@ -26,9 +26,8 @@ My goal is to become a technical reference wherever I work. I like to learn abou
 
 <!-- ROADMAP -->
 ## Roadmap Skills
-<p align="center">
-<img src="images/roadmap3.png" alt="Logo" width="65%">
-</p>
+<img src="images/roadmap5.png" alt="Logo" width="65%">
+
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
