@@ -1,17 +1,45 @@
-<h1  align="center">Hi 👋, I'm Luis</h1>
-<h3  align="center">A passionate data engineer from Argentina...</h3>
+[![github][github-shield]][github-url] [![LinkedIn][linkedin-shield]][linkedin-url] [![instagram][instagram-shield]][instagram-url]
 
-- 🔭 I’m currently working on **Walmart Argentina**
-  
-<h3  align="left">Connect with me:</h3>
 
-<p  align="left">
-<a href=https://www.linkedin.com/in/luisarg03/><img src="https://i.ibb.co/XXz4Gr8/linkedin.png" alt="linkedin" border="0" width=5%></a> 
-<a href=https://www.instagram.com/hiro_lmp/><img src="https://i.ibb.co/grYkMxZ/instagram.png" alt="instagram" border="0" width=5%></a>
-<a href=https://www.facebook.com/Bete.Noire.00/> <img src="https://i.ibb.co/3pN2Dd0/facebookj.png" alt="facebookj" border="0" width=5%></a>
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+
+  <img src="images/logo.png" alt="Logo" width="80" height="80">
+
+  <h2  align="center">Hi 👋, I'm Luis</h2>
+  <p align="center">
+    this is my profesional data engineer resumen
+  </p> 
 </p>
 
-<h3  align="left">Languages and Tools:</h3>
-<img src="https://i.ibb.co/xFL2R0G/elastic.png" alt="elastic" border="0">
-<p  align="left">
+
+<!-- ABOUT THE PROJECT -->
+## About me
+
+I am 28 years old and i live Argentina, Buenos Aires. 
+I love technology and data...
+
+My goal is to become a technical reference wherever I work. I like to learn about my work environment and the technologies they use.
+
+<br />
+
+<!-- ROADMAP -->
+## Roadmap Skills
+<p align="center">
+<img src="images/roadmap3.png" alt="Logo" width="65%">
 </p>
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
+[linkedin-shield]: https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white
+[linkedin-url]: https://www.linkedin.com/in/luisarg03/
+
+
+[github-shield]:https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white
+[github-url]:https://github.com/Luisarg03
+
+[instagram-shield]:https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white
+[instagram-url]:https://www.instagram.com/hiro_lmp/
