@@ -30,7 +30,7 @@ My goal is to become a technical reference wherever I work. I like to learn abou
 
 <br />
 
-[![Naereen's top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Naereen&theme=blue-green)](https://github.com/anuraghazra/github-readme-stats)
+[![Naereen's top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Luisarg03&theme=blue-green)](https://github.com/anuraghazra/github-readme-stats)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
