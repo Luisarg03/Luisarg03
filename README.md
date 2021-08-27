@@ -25,7 +25,7 @@ My goal is to become a technical reference wherever I work. I like to learn abou
 <br />
 
 <!-- ROADMAP -->
-## Roadmap Skills
+## Skill Roadmap
 <img src="images/roadmap.png" alt="Logo" width="65%">
 
 <br />
