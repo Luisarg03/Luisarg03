@@ -17,10 +17,6 @@
 <!-- ABOUT THE PROJECT -->
 ## About me
 
-I am 28 years old and i live Argentina, Buenos Aires. 
-I love technology and data...
-
-My goal is to become a technical reference wherever I work. I like to learn about my work environment and the technologies they use.
 
 <br />
 
