@@ -1,7 +1,6 @@
 [![github][github-shield]][github-url] [![LinkedIn][linkedin-shield]][linkedin-url] [![instagram][instagram-shield]][instagram-url]
 
-<!-- in your header -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
 
 <!-- PROJECT LOGO -->
 <br />
