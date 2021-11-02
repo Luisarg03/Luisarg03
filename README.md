@@ -14,10 +14,14 @@
 </p>
 
 
-<!-- ABOUT THE PROJECT -->
+<!-- Acerca de mi -->
 ## About me
-
-
+Tengo 28 años, soy fan de la tecnología, los datos y la programación...
+Desde que tengo memoria me llama ha llamado la atención la tecnología y como se aplica en
+nuestras vidas diarias.
+Actualmente mis metas están relacionadas en adquirir conocimiento acerca de como funcionan
+internamente las áreas tecnológicas de las compañías, entender como aplican y aprovechan
+para su crecimiento las nuevas tendencias tecnológicas que van surgiendo constantemene.
 <br />
 
 <!-- ROADMAP -->
