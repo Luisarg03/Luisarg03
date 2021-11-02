@@ -15,7 +15,7 @@
 
 
 <!-- Acerca de mi -->
-## About me
+## Acerca de mi
 Tengo 28 años, soy fan de la tecnología, los datos y la programación...
 <br />
 Desde que tengo memoria me llama ha llamado la atención la tecnología y como se aplica en
