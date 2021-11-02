@@ -19,7 +19,8 @@
 
 ### Languages and Tools
 <!-- in your body -->
-<i class="devicon-python-plain"></i><i class="devicon-postgresql-plain"></i><i class="devicon-sqlalchemy-plain"></i><i class="devicon-microsoftsqlserver-plain"></i><i class="devicon-pandas-original"><i class="devicon-numpy-original"></i></i><i class="devicon-amazonwebservices-plain-wordmark"></i><i class="devicon-jupyter-plain-wordmark"></i><i class="devicon-azure-plain-wordmark"></i><i class="devicon-docker-plain-wordmark"></i><i class="devicon-oracle-original"></i><i class="devicon-git-plain"></i><i class="devicon-github-original"></i><i class="devicon-linux-plain"></i>
+<i class="devicon-python-plain"></i>
+<i class="devicon-postgresql-plain"></i><i class="devicon-sqlalchemy-plain"></i><i class="devicon-microsoftsqlserver-plain"></i><i class="devicon-pandas-original"><i class="devicon-numpy-original"></i></i><i class="devicon-amazonwebservices-plain-wordmark"></i><i class="devicon-jupyter-plain-wordmark"></i><i class="devicon-azure-plain-wordmark"></i><i class="devicon-docker-plain-wordmark"></i><i class="devicon-oracle-original"></i><i class="devicon-git-plain"></i><i class="devicon-github-original"></i><i class="devicon-linux-plain"></i>
 
 <!-- Acerca de mi -->
 ## Acerca de mi
