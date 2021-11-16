@@ -33,9 +33,9 @@ internamente las áreas tecnológicas de las compañías, entender como aplican 
 para su crecimiento las nuevas tendencias tecnológicas que van surgiendo constantemene.
 
 
-<p align="center">
+<p align="left">
 
-  <img src="images/IconsSkills.drawio.png" alt="Logo" width="80%">
+  <img src="images/IconsSkills.drawio.png" alt="Logo" width="70%">
 
 </p>
 
