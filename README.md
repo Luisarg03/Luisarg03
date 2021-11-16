@@ -38,10 +38,6 @@ para su crecimiento las nuevas tendencias tecnológicas que van surgiendo consta
 
 </p>
 
-<div class="text-white bg-gray-dark mb-2">
-  .text-white on .bg-gray-dark
-</div>
-
 
 <!-- VARS -->
 
