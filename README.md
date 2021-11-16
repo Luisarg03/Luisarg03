@@ -35,11 +35,8 @@ para su crecimiento las nuevas tendencias tecnológicas que van surgiendo consta
 
 <p align="center">
 
-  <img src="images/IconsSkills.drawio.svg" alt="Logo" width="80" height="80">
+  <img src="images/IconsSkills.drawio.svg" alt="Logo" width="80%">
 
-  <p align="center">
-    Welcome !!!
-  </p> 
 </p>
 
 
