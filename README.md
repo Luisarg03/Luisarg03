@@ -7,6 +7,7 @@
 <p align="center">
 
   <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <img src="images/IconsSkills.drawio.svg" alt="Logo" width="80" height="80">
 
   <h2  align="center">Hi 👋, I'm Luis</h2>
   <p align="center">
