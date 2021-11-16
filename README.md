@@ -14,9 +14,6 @@
   </p> 
 </p>
 
-
-
-### Languages and Tools
 <!-- in your body -->
 <i class="devicon-python-plain"></i>
 <i class="devicon-postgresql-plain"></i><i class="devicon-sqlalchemy-plain"></i><i class="devicon-microsoftsqlserver-plain"></i><i class="devicon-pandas-original"><i class="devicon-numpy-original"></i></i><i class="devicon-amazonwebservices-plain-wordmark"></i><i class="devicon-jupyter-plain-wordmark"></i><i class="devicon-azure-plain-wordmark"></i><i class="devicon-docker-plain-wordmark"></i><i class="devicon-oracle-original"></i><i class="devicon-git-plain"></i><i class="devicon-github-original"></i><i class="devicon-linux-plain"></i>
@@ -33,6 +30,7 @@ internamente las áreas tecnológicas de las compañías, entender como aplican 
 para su crecimiento las nuevas tendencias tecnológicas que van surgiendo constantemene.
 
 <br />
+### Languages and Tools
 <p align="left">
 
   <img src="images/IconsSkills.drawio.png" alt="Logo" width="70%">
