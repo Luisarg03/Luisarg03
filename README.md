@@ -7,7 +7,6 @@
 <p align="center">
 
   <img src="images/logo.png" alt="Logo" width="80" height="80">
-  <img src="images/IconsSkills.drawio.svg" alt="Logo" width="80" height="80">
 
   <h2  align="center">Hi 👋, I'm Luis</h2>
   <p align="center">
@@ -32,6 +31,17 @@ nuestras vidas diarias.
 Actualmente mis metas están relacionadas en adquirir conocimiento acerca de como funcionan
 internamente las áreas tecnológicas de las compañías, entender como aplican y aprovechan
 para su crecimiento las nuevas tendencias tecnológicas que van surgiendo constantemene.
+
+
+<p align="center">
+
+  <img src="images/IconsSkills.drawio.svg" alt="Logo" width="80" height="80">
+
+  <p align="center">
+    Welcome !!!
+  </p> 
+</p>
+
 
 <!-- VARS -->
 
