@@ -30,7 +30,7 @@ internamente las áreas tecnológicas de las compañías, entender como aplican 
 para su crecimiento las nuevas tendencias tecnológicas que van surgiendo constantemene.
 
 <!-- Acerca de mi -->
-## Acerca de mi
+## Herramientas
 <br />
 <p align="left">
 
