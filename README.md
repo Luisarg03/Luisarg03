@@ -32,7 +32,7 @@ para su crecimiento las nuevas tendencias tecnológicas que van surgiendo consta
 <!-- Acerca de mi -->
 ## Herramientas
 <br />
-<p align="left" class="bg-gray">
+<p align="left">
 
   <img src="images/IconsSkills.drawio.png" alt="Logo" width="70%">
 
