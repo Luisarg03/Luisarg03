@@ -29,16 +29,6 @@ Actualmente mis metas están relacionadas en adquirir conocimiento acerca de com
 internamente las áreas tecnológicas de las compañías, entender como aplican y aprovechan
 para su crecimiento las nuevas tendencias tecnológicas que van surgiendo constantemene.
 
-<!-- Acerca de mi -->
-## Herramientas
-<br />
-<p align="left">
-
-  <img src="images/IconsSkills.drawio.png" alt="Logo" width="70%">
-
-</p>
-
-
 <!-- VARS -->
 
 [linkedin-shield]: https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white
