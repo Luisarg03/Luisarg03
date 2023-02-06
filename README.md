@@ -19,15 +19,13 @@
 <i class="devicon-postgresql-plain"></i><i class="devicon-sqlalchemy-plain"></i><i class="devicon-microsoftsqlserver-plain"></i><i class="devicon-pandas-original"><i class="devicon-numpy-original"></i></i><i class="devicon-amazonwebservices-plain-wordmark"></i><i class="devicon-jupyter-plain-wordmark"></i><i class="devicon-azure-plain-wordmark"></i><i class="devicon-docker-plain-wordmark"></i><i class="devicon-oracle-original"></i><i class="devicon-git-plain"></i><i class="devicon-github-original"></i><i class="devicon-linux-plain"></i>
 
 <!-- Acerca de mi -->
-## Acerca de mi
-Tengo 28 años, soy fan de la tecnología, los datos y la programación...
-<br />
-Desde que tengo memoria me llama ha llamado la atención la tecnología y como se aplica en
-nuestras vidas diarias.
-<br />
-Actualmente mis metas están relacionadas en adquirir conocimiento acerca de como funcionan
-internamente las áreas tecnológicas de las compañías, entender como aplican y aprovechan
-para su crecimiento las nuevas tendencias tecnológicas que van surgiendo constantemene.
+## About me
+𝐑𝐚𝐧𝐝𝐨𝐦 𝐩𝐥𝐚𝐜𝐞 🤔
+I am 29 years old 👀 ||| Techie in general, data and programming 🧑🏻‍💻 ||| I like quiet places 🏕️
+
+𝐄𝐱𝐩𝐞𝐫𝐢𝐞𝐧𝐜𝐞 🎯
+Most of my professional experience is based on programming and handling large volumes of data with different technologies.
+In recent years, I have adopted a data engineer profile oriented to cloud technologies
 
 <!-- VARS -->
 
