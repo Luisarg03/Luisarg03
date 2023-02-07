@@ -1,4 +1,4 @@
-[![github][github-shield]][github-url] [![LinkedIn][linkedin-shield]][linkedin-url] [![instagram][instagram-shield]][instagram-url]
+[![github][github-shield]][github-url] [![LinkedIn][linkedin-shield]][linkedin-url]
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
 
