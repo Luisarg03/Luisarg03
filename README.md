@@ -1,4 +1,4 @@
-[![github][github-shield]][github-url] [![LinkedIn][linkedin-shield]][linkedin-url]
+[![github][github-shield]][github-url] [![LinkedIn][linkedin-shield]][linkedin-url]<p align="left"> <img src="https://komarev.com/ghpvc/?username=Luisarg03&label=Profile%20views&color=0e75b6&style=flat" alt="Luisarg03" /> </p>
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
 
