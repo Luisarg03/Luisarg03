@@ -21,11 +21,11 @@
 <!-- Acerca de mi -->
 ## About me
 𝐑𝐚𝐧𝐝𝐨𝐦 𝐩𝐥𝐚𝐜𝐞 🤔
-I am 29 years old 👀 ||| Techie in general, data and programming 🧑🏻‍💻 ||| I like quiet places 🏕️
+Techie in general ||| Data and programming 🧑🏻‍💻 ||| I like quiet places 🏕️
 
 𝐄𝐱𝐩𝐞𝐫𝐢𝐞𝐧𝐜𝐞 🎯
 Most of my professional experience is based on programming and handling large volumes of data with different technologies.
-In recent years, I have adopted a data engineer profile oriented to cloud technologies
+In recent years, I have adopted a engineer profile oriented to cloud technologies
 
 <!-- VARS -->
 
