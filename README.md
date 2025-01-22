@@ -1,40 +1,42 @@
-[![github][github-shield]][github-url] [![LinkedIn][linkedin-shield]][linkedin-url]<p align="left"> <img src="https://komarev.com/ghpvc/?username=Luisarg03&label=Profile%20views&color=0e75b6&style=flat" alt="Luisarg03" /> </p>
+<h1 align="center">👋 Hello! I'm Luis </h1>
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+___
 
-<!-- PROJECT LOGO -->
-<br />
-<p align="center">
+<div align="center" style="width: 100%; padding: 20px; background: linear-gradient(90deg, #1a1b27, #be90f2); border-radius: 12px; color: white; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+  <div align="left" style="color: black;">
+      <h2 style="color: white;">Welcome to my profile</h2>
+      <p style="color: white;">Explore my journey in technology and cloud engineering.</p>
+  </div>
+</div>
 
-  <img src="images/logo.png" alt="Logo" width="80" height="80">
-
-  <h2  align="center">Hi 👋, I'm Luis</h2>
-  <p align="center">
-    Welcome !!!
-  </p> 
-</p>
-
-<!-- in your body -->
-<i class="devicon-python-plain"></i>
-<i class="devicon-postgresql-plain"></i><i class="devicon-sqlalchemy-plain"></i><i class="devicon-microsoftsqlserver-plain"></i><i class="devicon-pandas-original"><i class="devicon-numpy-original"></i></i><i class="devicon-amazonwebservices-plain-wordmark"></i><i class="devicon-jupyter-plain-wordmark"></i><i class="devicon-azure-plain-wordmark"></i><i class="devicon-docker-plain-wordmark"></i><i class="devicon-oracle-original"></i><i class="devicon-git-plain"></i><i class="devicon-github-original"></i><i class="devicon-linux-plain"></i>
-
-<!-- Acerca de mi -->
 ## About me
-𝐑𝐚𝐧𝐝𝐨𝐦 𝐩𝐥𝐚𝐜𝐞 🤔
-Techie in general ||| Data and programming 🧑🏻‍💻 ||| I like quiet places 🏕️
+𝐑𝐚𝐧𝐝𝐨𝐦 𝐩𝐥𝐚𝐜𝐞 🤔 Techie in general || Data and programming 🧑🏻‍💻 || I like quiet places 🏕️
 
-𝐄𝐱𝐩𝐞𝐫𝐢𝐞𝐧𝐜𝐞 🎯
-Most of my professional experience is based on programming and handling large volumes of data with different technologies.
-In recent years, I have adopted a engineer profile oriented to cloud technologies
+𝐄𝐱𝐩𝐞𝐫𝐢𝐞𝐧𝐜𝐞 🎯 Most of my professional experience is based on programming and handling large volumes of data with different technologies. In recent years, I have adopted a engineer profile oriented to cloud technologies.
 
-<!-- VARS -->
-
-[linkedin-shield]: https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white
-[linkedin-url]: https://www.linkedin.com/in/luisarg03/
+___
 
 
-[github-shield]:https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white
-[github-url]:https://github.com/Luisarg03
+<a href="https://github.com/Luisarg03/github-readme-stats">
+  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api?username=Luisarg03&show_icons=true&theme=tokyonight" />
+</a>
+<a href="https://github.com/Luisarg03/convoychat">
+  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Luisarg03&layout=compact&langs_count=8&theme=tokyonight&card_width=320"/>
 
-[instagram-shield]:https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white
-[instagram-url]:https://www.instagram.com/hiro_lmp/
+</a>
+
+___
+
+### **Languages and Tools:**
+
+![HTML](https://img.shields.io/badge/-AWS-070404?style=for-the-badge&logo=amazon) ![HTML](https://img.shields.io/badge/-Python-070404?style=for-the-badge&logo=python) ![HTML](https://img.shields.io/badge/-Docker-070404?style=for-the-badge&logo=Docker) ![HTML](https://img.shields.io/badge/-Bash-070404?style=for-the-badge&logo=GNU%20Bash) ![HTML](https://img.shields.io/badge/-Database-070404?style=for-the-badge&logo=sqlite) ![HTML](https://img.shields.io/badge/-IAC-070404?style=for-the-badge&logo=terraform)
+
+
+
+___
+
+### Follow Me:
+ 
+[![HTML](https://img.shields.io/badge/LinkedIn-070404?logo=linkedin&logoColor=white&style=for-the-badge)](https://www.linkedin.com/in/luisarg03/) [![HTML](https://img.shields.io/badge/GitHub-070404?logo=github&logoColor=white&style=for-the-badge)](https://github.com/Luisarg03)
+
+___
