@@ -2,25 +2,10 @@
 
 ___
 
-<div align="center" style="width: 100%; padding: 20px; background: linear-gradient(90deg, #1a1b27, #be90f2); border-radius: 12px; color: white; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
-  <div align="left" style="color: black;">
-      <h3 style="color: white;">Explore my journey in technology and cloud engineering.</h3>
-  </div>
-</div>
-
-<style>
-div {
-  width: 100%;
-  padding: 20px;
-  background: linear-gradient(90deg, #1a1b27, #be90f2);
-  border-radius: 12px;
-  color: white;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2)
-}
-</style>
-
+<img src=images\banner.png>
 
 ## About me
+
 𝐑𝐚𝐧𝐝𝐨𝐦 𝐩𝐥𝐚𝐜𝐞 🤔 Techie in general || Data and programming 🧑🏻‍💻 || I like quiet places 🏕️
 
 𝐄𝐱𝐩𝐞𝐫𝐢𝐞𝐧𝐜𝐞 🎯 Most of my professional experience is based on programming and handling large volumes of data with different technologies. In recent years, I have adopted a engineer profile oriented to cloud technologies.
