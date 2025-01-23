@@ -2,7 +2,7 @@
 
 ___
 
-<img src=images\banner.png width=200% height=200%>
+<img src=images\banner.png width=800 height=200>
 
 ## About me
 
