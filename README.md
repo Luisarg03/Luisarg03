@@ -17,7 +17,7 @@ ___
   <img height=200 align="center" src="https://github-readme-stats.vercel.app/api?username=Luisarg03&show_icons=true&theme=tokyonight" />
 </a>
 <a href="https://github.com/Luisarg03/convoychat">
-  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Luisarg03&layout=compact&hide=javascript,html,css,jupyter%20notebook&langs_count=5&theme=tokyonight&card_width=300"/>
+  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Luisarg03&layout=compact&hide=javascript,html,css,jupyter%20notebook&langs_count=5&theme=tokyonight&card_width=280"/>
 
 </a>
 
