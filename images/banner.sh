@@ -18,5 +18,5 @@ mapfile -t lineas_logo <<< "$logo"
 # Combinar línea por línea
 for i in "${!lineas_texto[@]}"; do
   # Añadir un espacio entre el texto y el logo
-  echo -e "\e[36m${lineas_texto[i]}  ${lineas_logo[i]:-}\e[0m"
+  echo -e "\e[94m${lineas_texto[i]}  ${lineas_logo[i]:-}\e[0m"
 done

@@ -2,7 +2,7 @@
 
 ___
 
-<img src=images\terminal2.png>
+<img src=images\terminal3.png>
 
 ## About me
 
