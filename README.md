@@ -6,7 +6,10 @@ ___
 
 ## About me
 
-𝐑𝐚𝐧𝐝𝐨𝐦 𝐩𝐥𝐚𝐜𝐞 🤔 Techie in general || Data and programming 🧑🏻‍💻 || I like quiet places 🏕️
+𝐑𝐚𝐧𝐝𝐨𝐦 𝐩𝐥𝐚𝐜𝐞 🤔 
+  - Techie in general 
+  - Data and programming 🧑🏻‍💻 
+  - I like quiet places 🏕️
 
 𝐄𝐱𝐩𝐞𝐫𝐢𝐞𝐧𝐜𝐞 🎯 Most of my professional experience is based on programming and handling large volumes of data with different technologies. In recent years, I have adopted a engineer profile oriented to cloud technologies.
 
