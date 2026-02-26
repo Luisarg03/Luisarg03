@@ -108,12 +108,12 @@ Currently **MLOps / Cloud Engineer at [Interbank](https://interbank.pe)** (Peru 
   </tr>
   <tr>
     <td align="center" width="96">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-original.svg" width="48" height="48" alt="Kubernetes" />
-      <br/><sub><b>Kubernetes</b></sub>
-    </td>
-    <td align="center" width="96">
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" width="48" height="48" alt="FastAPI" />
       <br/><sub><b>FastAPI</b></sub>
+    </td>
+    <td align="center" width="96">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/githubactions/githubactions-original.svg" width="48" height="48" alt="GitHub Actions" />
+      <br/><sub><b>GH Actions</b></sub>
     </td>
     <td align="center" width="96">
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="48" height="48" alt="Git" />
@@ -124,8 +124,8 @@ Currently **MLOps / Cloud Engineer at [Interbank](https://interbank.pe)** (Peru 
       <br/><sub><b>Streamlit</b></sub>
     </td>
     <td align="center" width="96">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" width="48" height="48" alt="Flask" />
-      <br/><sub><b>Flask</b></sub>
+      <img src="https://img.shields.io/badge/MLflow-0d1117?style=flat-square&logo=mlflow&logoColor=70a5fd" width="72" height="28" alt="MLflow" />
+      <br/><sub><b>MLflow</b></sub>
     </td>
     <td align="center" width="96">
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="48" height="48" alt="Linux" />
