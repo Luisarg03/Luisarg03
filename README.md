@@ -68,19 +68,19 @@ Currently working as **MLOps / Cloud Engineer at Interbank (Peru, remote)**, lea
 ## Featured Projects
 
 <a href="https://github.com/Luisarg03/SagemakerJobsObservability">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Luisarg03&repo=SagemakerJobsObservability&theme=tokyonight" />
+  <img align="center" src="https://gh-readme-stats.vercel.app/api/pin/?username=Luisarg03&repo=SagemakerJobsObservability&theme=tokyonight" />
 </a>
 <a href="https://github.com/Luisarg03/aws_serverless_pipeline">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Luisarg03&repo=aws_serverless_pipeline&theme=tokyonight" />
+  <img align="center" src="https://gh-readme-stats.vercel.app/api/pin/?username=Luisarg03&repo=aws_serverless_pipeline&theme=tokyonight" />
 </a>
 
 <br/>
 
 <a href="https://github.com/Luisarg03/StreamlitLangchainBot">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Luisarg03&repo=StreamlitLangchainBot&theme=tokyonight" />
+  <img align="center" src="https://gh-readme-stats.vercel.app/api/pin/?username=Luisarg03&repo=StreamlitLangchainBot&theme=tokyonight" />
 </a>
 <a href="https://github.com/Luisarg03/Streamlit-CryptoCurrency">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Luisarg03&repo=Streamlit-CryptoCurrency&theme=tokyonight" />
+  <img align="center" src="https://gh-readme-stats.vercel.app/api/pin/?username=Luisarg03&repo=Streamlit-CryptoCurrency&theme=tokyonight" />
 </a>
 
 ---
@@ -88,10 +88,10 @@ Currently working as **MLOps / Cloud Engineer at Interbank (Peru, remote)**, lea
 ## GitHub Stats
 
 <a href="https://github.com/Luisarg03">
-  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api?username=Luisarg03&show_icons=true&theme=tokyonight" />
+  <img height=200 align="center" src="https://gh-readme-stats.vercel.app/api?username=Luisarg03&show_icons=true&theme=tokyonight" />
 </a>
 <a href="https://github.com/Luisarg03">
-  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Luisarg03&layout=compact&hide=javascript,html,css,jupyter%20notebook&langs_count=5&theme=tokyonight&card_width=280"/>
+  <img height=200 align="center" src="https://gh-readme-stats.vercel.app/api/top-langs/?username=Luisarg03&layout=compact&hide=javascript,html,css,jupyter%20notebook&langs_count=5&theme=tokyonight&card_width=280"/>
 </a>
 
 ---
