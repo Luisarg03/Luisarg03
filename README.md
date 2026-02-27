@@ -146,21 +146,13 @@ Currently **MLOps / Cloud Engineer at [Interbank](https://interbank.pe)** (Peru 
 
 ## `> featured projects`
 
-<a href="https://github.com/Luisarg03/SagemakerJobsObservability">
-  <img align="center" src="https://gh-readme-stats.vercel.app/api/pin/?username=Luisarg03&repo=SagemakerJobsObservability&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=70a5fd&icon_color=bf91f3&text_color=8b949e" />
-</a>
-<a href="https://github.com/Luisarg03/aws_serverless_pipeline">
-  <img align="center" src="https://gh-readme-stats.vercel.app/api/pin/?username=Luisarg03&repo=aws_serverless_pipeline&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=70a5fd&icon_color=bf91f3&text_color=8b949e" />
+<a href="https://github.com/Luisarg03/projects-archive">
+  <img align="center" src="https://gh-readme-stats.vercel.app/api/pin/?username=Luisarg03&repo=projects-archive&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=70a5fd&icon_color=bf91f3&text_color=8b949e" />
 </a>
 
 <br/><br/>
 
-<a href="https://github.com/Luisarg03/StreamlitLangchainBot">
-  <img align="center" src="https://gh-readme-stats.vercel.app/api/pin/?username=Luisarg03&repo=StreamlitLangchainBot&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=70a5fd&icon_color=bf91f3&text_color=8b949e" />
-</a>
-<a href="https://github.com/Luisarg03/Streamlit-CryptoCurrency">
-  <img align="center" src="https://gh-readme-stats.vercel.app/api/pin/?username=Luisarg03&repo=Streamlit-CryptoCurrency&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=70a5fd&icon_color=bf91f3&text_color=8b949e" />
-</a>
+> Previous individual projects (AWS serverless pipelines, Sagemaker observability, Streamlit dashboards, Kafka pipelines and more) are archived at [**projects-archive**](https://github.com/Luisarg03/projects-archive).
 
 <br/>
 
