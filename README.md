@@ -55,6 +55,13 @@ I build the infrastructure that lets Data Science teams **ship models to product
 ### Coding activity
 
 <!--START_SECTION:waka-->
+
+```txt
+From: 14 March 2026 - To: 21 March 2026
+
+No activity tracked
+```
+
 <!--END_SECTION:waka-->
 
 ---
