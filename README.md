@@ -52,6 +52,13 @@ I build the infrastructure that lets Data Science teams **ship models to product
 
 ---
 
+### Coding activity
+
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
+
+---
+
 ### GitHub
 
 <div align="center">
