@@ -68,3 +68,5 @@ No activity tracked
 <img height="165em" src="https://streak-stats.demolab.com?user=luisarg03&hide_border=true&background=0D1117&ring=00D4FF&fire=00D4FF&currStreakLabel=00D4FF&sideLabels=CDD9E5&dates=CDD9E5&sideNums=CDD9E5&currStreakNum=CDD9E5" />
 
 </div>
+
+<br>
