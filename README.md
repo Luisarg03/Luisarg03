@@ -49,12 +49,13 @@ I build the infrastructure that lets Data Science teams **ship models to product
 ### Coding activity
 
 <!--START_SECTION:waka-->
+📊 **This Week I Spent My Time On** 
 
-```txt
-From: 14 March 2026 - To: 21 March 2026
-
-No activity tracked
+```text
+💬 Programming Languages: 
+No Activity Tracked This Week
 ```
+
 
 <!--END_SECTION:waka-->
 
