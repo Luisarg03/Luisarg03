@@ -5,6 +5,9 @@ on:
     - cron: "0 0 * * 1"  # every Monday at midnight UTC
   workflow_dispatch:       # allow manual trigger
 
+permissions:
+  contents: write
+
 jobs:
   update-readme:
     name: Update README with WakaTime stats
