@@ -40,15 +40,9 @@ I build the infrastructure that lets Data Science teams **ship models to product
 
 ---
 
-### Experience
-
-| Period | Role |
-|---|---|
-| **2023 — present** | **MLOps / Cloud Engineer · Interbank** 🇵🇪 *(remote)*<br/>Self-service MLOps platform on AWS for internal Data Science teams. AWS CDK · SageMaker Pipelines · Lambda · Glue · DynamoDB · Athena · CI/CD via Bitbucket + CodePipeline · LLM agents integration. |
-| **2022 — 2023** | **Data Engineer · Prisma Medios de Pagos** 🇦🇷<br/>Ingestion pipelines from Salesforce API into AWS data lake. SDLF · CDK → Terraform migration. |
-| **2021 — 2022** | **Data Engineer · Tiendanube** 🇦🇷<br/>Lakehouse architecture for Latin America's largest e-commerce platform. AWS · Databricks · Trino · Spark. |
-| **2021** | **Data Engineer · Walmart Argentina** 🇦🇷<br/>ETL pipelines for DB migration to Dorinka / Oracle Cloud. |
-| **2019 — 2021** | **Data Engineer Freelance** · Tsoft · Monsun · Dthink<br/>Cloud migrations, DB optimization, ETL (SSIS). |
+→ Design and build **self-service MLOps platforms on AWS** — end to end, from IaC to model serving<br/>
+→ Automate ML workflows so Data Science teams **ship to production without ops dependency**<br/>
+→ Integrate **AI tooling into engineering workflows** to cut delivery cycles and improve developer experience
 
 ---
 
