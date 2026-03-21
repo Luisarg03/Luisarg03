@@ -1,166 +1,179 @@
-<p align="center">
-  <img src="images/header.svg" width="860" alt="Luis Meyehen Paz — MLOps Platform Engineer" />
-</p>
+<div align="center">
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/luisarg03/">
-    <img src="https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=70a5fd" />
-  </a>
-  &nbsp;
-  <a href="mailto:luis.m.paz.03@gmail.com">
-    <img src="https://img.shields.io/badge/Email-0d1117?style=for-the-badge&logo=gmail&logoColor=bf91f3" />
-  </a>
-  &nbsp;
-  <a href="https://github.com/Luisarg03">
-    <img src="https://img.shields.io/badge/GitHub-0d1117?style=for-the-badge&logo=github&logoColor=8b949e" />
-  </a>
-</p>
+<!-- ANIMATED HEADER -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=00D4FF&center=true&vCenter=true&width=700&lines=MLOps+Platform+Engineer;Building+Self-Service+ML+Infrastructure;AWS+%7C+SageMaker+%7C+CDK+%7C+Python;AI+Tooling+Early+Adopter+%F0%9F%A4%96" alt="Typing SVG" />
 
 <br/>
 
-## `> about`
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&duration=4000&pause=2000&color=8892B0&center=true&vCenter=true&width=600&lines=Buenos+Aires+%F0%9F%87%A6%F0%9F%87%B7+%E2%80%A2+7%2B+years+in+Data+%26+Cloud+%E2%80%A2+Open+to+global+opportunities" alt="Subtitle" />
 
-MLOps Platform Engineer with **7+ years** in data and cloud engineering. I specialize in building end-to-end ML platforms on AWS for Data Science teams — from infrastructure and IaC to model deployment, CI/CD pipelines, and LLM-based developer tooling.
+---
 
-Currently **MLOps / Cloud Engineer at [Interbank](https://interbank.pe)** (Peru · remote), leading cloud-native platform initiatives using AWS SageMaker, CDK, and AI tooling.
+<!-- CONTACT BADGES -->
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-luisarg03-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/luisarg03)
+[![GitHub](https://img.shields.io/badge/GitHub-luisarg03-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/luisarg03)
+[![Email](https://img.shields.io/badge/Email-luis.m.paz.03%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:luis.m.paz.03@gmail.com)
+[![Location](https://img.shields.io/badge/Buenos_Aires-Argentina-00D4FF?style=for-the-badge&logo=googlemaps&logoColor=white)](#)
 
-<br/>
+</div>
 
-## `> experience`
+---
+
+## `$ whoami`
+
+```yaml
+name:     Luis Meyehen Paz
+handle:   luisarg03
+role:     MLOps Platform Engineer
+focus:    Self-service ML platforms on AWS · Infrastructure as Code · AI-augmented workflows
+based_in: Buenos Aires, Argentina
+```
+
+> I build the infrastructure that lets Data Science teams **ship models to production without friction** — scalable, automated, and fully self-service. Currently engineering MLOps platforms on AWS at scale, while actively integrating LLM agents into every layer of the developer workflow.
+
+---
+
+## `$ cat tech_stack.yaml`
+
+<div align="center">
+
+### ☁️ Cloud & Infrastructure
+
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=FF9900)
+![Amazon SageMaker](https://img.shields.io/badge/SageMaker-FF9900?style=for-the-badge&logo=amazonsagemaker&logoColor=white)
+![AWS Lambda](https://img.shields.io/badge/Lambda-FF9900?style=for-the-badge&logo=awslambda&logoColor=white)
+![AWS Glue](https://img.shields.io/badge/Glue-FF9900?style=for-the-badge&logo=amazonwebservices&logoColor=white)
+![Amazon S3](https://img.shields.io/badge/S3-569A31?style=for-the-badge&logo=amazons3&logoColor=white)
+![Amazon DynamoDB](https://img.shields.io/badge/DynamoDB-4053D6?style=for-the-badge&logo=amazondynamodb&logoColor=white)
+![Amazon Athena](https://img.shields.io/badge/Athena-8C4FFF?style=for-the-badge&logo=amazonwebservices&logoColor=white)
+
+### 🏗️ IaC & CI/CD
+
+![AWS CDK](https://img.shields.io/badge/AWS_CDK-FF9900?style=for-the-badge&logo=amazonwebservices&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Bitbucket Pipelines](https://img.shields.io/badge/Bitbucket_Pipelines-0052CC?style=for-the-badge&logo=bitbucket&logoColor=white)
+![AWS CodePipeline](https://img.shields.io/badge/CodePipeline-FF9900?style=for-the-badge&logo=amazonwebservices&logoColor=white)
+
+### 🤖 MLOps & AI
+
+![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white)
+![GitHub Copilot](https://img.shields.io/badge/GitHub_Copilot-000000?style=for-the-badge&logo=githubcopilot&logoColor=white)
+![OpenAI](https://img.shields.io/badge/LLM_Agents-412991?style=for-the-badge&logo=openai&logoColor=white)
+
+### 🗄️ Data Engineering
+
+![Apache Airflow](https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white)
+![Apache Spark](https://img.shields.io/badge/Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)
+![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&logo=databricks&logoColor=white)
+![Trino](https://img.shields.io/badge/Trino-DD00A1?style=for-the-badge&logo=trino&logoColor=white)
+
+### 💻 Languages & Tools
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+
+</div>
+
+---
+
+## `$ git log --oneline --career`
 
 <table>
   <tr>
-    <td><b>Role</b></td>
-    <td><b>Company</b></td>
-    <td><b>Period</b></td>
-    <td><b>Location</b></td>
-  </tr>
-  <tr>
-    <td>MLOps / Cloud Engineer</td>
-    <td>Interbank</td>
-    <td>2023 – Present</td>
-    <td>Peru · Remote</td>
-  </tr>
-  <tr>
-    <td>Data Engineer</td>
-    <td>Prisma Medios de Pagos</td>
-    <td>2022 – 2023</td>
-    <td>Argentina</td>
-  </tr>
-  <tr>
-    <td>Data Engineer</td>
-    <td>Tiendanube</td>
-    <td>2021 – 2022</td>
-    <td>Argentina</td>
-  </tr>
-  <tr>
-    <td>Data Engineer</td>
-    <td>Walmart Argentina</td>
-    <td>2021</td>
-    <td>Argentina</td>
-  </tr>
-  <tr>
-    <td>Data Engineer</td>
-    <td>Freelance</td>
-    <td>2019 – 2021</td>
-    <td>Argentina</td>
-  </tr>
-</table>
-
-<br/>
-
-## `> stack`
-
-<table>
-  <tr>
-    <td align="center" width="96">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" width="48" height="48" alt="AWS" />
-      <br/><sub><b>AWS</b></sub>
+    <td valign="top" width="80px" align="center">
+      <strong>2023<br/>→ now</strong>
     </td>
-    <td align="center" width="96">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="48" height="48" alt="Python" />
-      <br/><sub><b>Python</b></sub>
-    </td>
-    <td align="center" width="96">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="48" height="48" alt="Docker" />
-      <br/><sub><b>Docker</b></sub>
-    </td>
-    <td align="center" width="96">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg" width="48" height="48" alt="Terraform" />
-      <br/><sub><b>Terraform</b></sub>
-    </td>
-    <td align="center" width="96">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apacheairflow/apacheairflow-original.svg" width="48" height="48" alt="Airflow" />
-      <br/><sub><b>Airflow</b></sub>
-    </td>
-    <td align="center" width="96">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachespark/apachespark-original.svg" width="48" height="48" alt="Spark" />
-      <br/><sub><b>Spark</b></sub>
-    </td>
-    <td align="center" width="96">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="48" height="48" alt="SQL" />
-      <br/><sub><b>SQL</b></sub>
-    </td>
-    <td align="center" width="96">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" width="48" height="48" alt="Bash" />
-      <br/><sub><b>Bash</b></sub>
+    <td>
+      <strong>MLOps / Cloud Engineer · <a href="#">Interbank</a></strong> — 🇵🇪 Perú (Remote)<br/>
+      Designed and built a <strong>self-service MLOps platform on AWS</strong> for internal Data Science teams.<br/>
+      <em>AWS CDK (Python) · SageMaker Pipelines · Lambda · Glue · DynamoDB · Athena · S3</em><br/>
+      ↳ CI/CD: Bitbucket Pipelines + CodePipeline/CodeBuild &nbsp;|&nbsp; AI tooling: LLM agents + GitHub Copilot + OpenCode
     </td>
   </tr>
   <tr>
-    <td align="center" width="96">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" width="48" height="48" alt="FastAPI" />
-      <br/><sub><b>FastAPI</b></sub>
+    <td valign="top" align="center">
+      <strong>2022<br/>→ 2023</strong>
     </td>
-    <td align="center" width="96">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/githubactions/githubactions-original.svg" width="48" height="48" alt="GitHub Actions" />
-      <br/><sub><b>GH Actions</b></sub>
+    <td>
+      <strong>Data Engineer · <a href="#">Prisma Medios de Pagos</a></strong> — 🇦🇷 Argentina<br/>
+      Data pipeline engineering for one of Argentina's largest payment processors.<br/>
+      <em>AWS · Python · SQL · Airflow</em>
     </td>
-    <td align="center" width="96">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="48" height="48" alt="Git" />
-      <br/><sub><b>Git</b></sub>
+  </tr>
+  <tr>
+    <td valign="top" align="center">
+      <strong>2021<br/>→ 2022</strong>
     </td>
-    <td align="center" width="96">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/streamlit/streamlit-original.svg" width="48" height="48" alt="Streamlit" />
-      <br/><sub><b>Streamlit</b></sub>
+    <td>
+      <strong>Data Engineer · <a href="#">Tiendanube</a></strong> — 🇦🇷 Argentina<br/>
+      Built a <strong>Lakehouse architecture</strong> from scratch powering analytics for Latin America's largest e-commerce platform.<br/>
+      <em>AWS · Databricks · Trino · Spark · Python</em>
     </td>
-    <td align="center" width="96">
-      <img src="https://img.shields.io/badge/MLflow-0d1117?style=flat-square&logo=mlflow&logoColor=70a5fd" width="72" height="28" alt="MLflow" />
-      <br/><sub><b>MLflow</b></sub>
+  </tr>
+  <tr>
+    <td valign="top" align="center">
+      <strong>2021</strong>
     </td>
-    <td align="center" width="96">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="48" height="48" alt="Linux" />
-      <br/><sub><b>Linux</b></sub>
+    <td>
+      <strong>Data Engineer · <a href="#">Walmart Argentina</a></strong> — 🇦🇷 Argentina<br/>
+      <em>Supply chain & retail data engineering at scale</em>
     </td>
-    <td align="center" width="96">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" width="48" height="48" alt="Redis" />
-      <br/><sub><b>Redis</b></sub>
+  </tr>
+  <tr>
+    <td valign="top" align="center">
+      <strong>2019<br/>→ 2021</strong>
     </td>
-    <td align="center" width="96">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elasticsearch/elasticsearch-original.svg" width="48" height="48" alt="Elasticsearch" />
-      <br/><sub><b>Elastic</b></sub>
+    <td>
+      <strong>Data Engineer Freelance</strong> — Tsoft · Monsun · Dthink<br/>
+      <em>Full-cycle data solutions across multiple industry verticals</em>
     </td>
   </tr>
 </table>
 
-<br/>
+---
 
-## `> featured projects`
+## `$ cat metrics.json`
 
-<a href="https://github.com/Luisarg03/projects-archive">
-  <img align="center" src="https://gh-readme-stats.vercel.app/api/pin/?username=Luisarg03&repo=projects-archive&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=70a5fd&icon_color=bf91f3&text_color=8b949e" />
-</a>
+<div align="center">
 
-<br/><br/>
-
-> Previous individual projects (AWS serverless pipelines, Sagemaker observability, Streamlit dashboards, Kafka pipelines and more) are archived at [**projects-archive**](https://github.com/Luisarg03/projects-archive).
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=luisarg03&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=00D4FF&icon_color=00D4FF&text_color=8892B0" />
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=luisarg03&layout=compact&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=00D4FF&text_color=8892B0&langs_count=8" />
 
 <br/>
 
-## `> github stats`
+[![GitHub Streak](https://streak-stats.demolab.com?user=luisarg03&theme=github-dark-blue&hide_border=true&background=0D1117&ring=00D4FF&fire=FF6B6B&currStreakLabel=00D4FF)](https://git.io/streak-stats)
 
-<a href="https://github.com/Luisarg03">
-  <img height="180" src="https://gh-readme-stats.vercel.app/api?username=Luisarg03&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=70a5fd&icon_color=bf91f3&text_color=8b949e" />
-</a>
-<a href="https://github.com/Luisarg03">
-  <img height="180" src="https://gh-readme-stats.vercel.app/api/top-langs/?username=Luisarg03&layout=compact&hide=javascript,html,css,jupyter%20notebook&langs_count=6&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=70a5fd&text_color=8b949e&card_width=300" />
-</a>
+</div>
+
+---
+
+## `$ echo $CERTIFICATIONS`
+
+```
+✦ Data Architect        →  NTT Data Academy · 2024
+✦ Computer Technician   →  Sec. Técnica N°3, Buenos Aires
+```
+
+---
+
+## `$ ping luisarg03`
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/Let's_connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/luisarg03)
+[![Email](https://img.shields.io/badge/Drop_me_an_email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:luis.m.paz.03@gmail.com)
+[![GitHub](https://img.shields.io/badge/Explore_my_repos-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/luisarg03?tab=repositories)
+
+<br/>
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=13&duration=5000&pause=1000&color=8892B0&center=true&vCenter=true&width=600&lines=Open+to+senior+MLOps+%2F+Platform+Engineering+roles;Remote-first+%7C+Global+opportunities+welcome;Building+things+that+make+Data+Science+teams+fly+%F0%9F%9A%80" alt="Footer typing" />
+
+---
+
+*Profile views:*
+![Profile Views](https://komarev.com/ghpvc/?username=luisarg03&color=00D4FF&style=flat-square&label=Profile+Views)
+
+</div>
