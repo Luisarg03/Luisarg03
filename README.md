@@ -1,13 +1,5 @@
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-luisarg03-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/luisarg03)
-&nbsp;
-[![Email](https://img.shields.io/badge/Email-luis.m.paz.03%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:luis.m.paz.03@gmail.com)
-&nbsp;
-[![GitHub](https://img.shields.io/badge/GitHub-luisarg03-CDD9E5?style=flat-square&logo=github&logoColor=0D1117)](https://github.com/luisarg03)
-
-<br/>
-
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=1000&color=00D4FF&center=true&vCenter=true&width=680&lines=MLOps+Platform+Engineer;Self-service+ML+infrastructure+on+AWS;Infrastructure+as+Code+%C2%B7+LLM+Agents+%C2%B7+Python" alt="Luis Meyehen Paz" />
 
 </div>
@@ -18,13 +10,23 @@ I build the infrastructure that lets Data Science teams **ship models to product
 
 **Buenos Aires, Argentina** &nbsp;·&nbsp; Open to remote opportunities globally.
 
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-luisarg03-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/luisarg03)
+&nbsp;
+[![Email](https://img.shields.io/badge/Email-luis.m.paz.03%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:luis.m.paz.03@gmail.com)
+&nbsp;
+[![GitHub](https://img.shields.io/badge/GitHub-luisarg03-CDD9E5?style=flat-square&logo=github&logoColor=0D1117)](https://github.com/luisarg03)
+
+</div>
+
 ---
 
 ### Stack
 
 <div align="center">
 
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=FF9900)
+![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazonwebservices&logoColor=232F3E)
 ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white)
