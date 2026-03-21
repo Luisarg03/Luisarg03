@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=1000&color=00D4FF&center=true&vCenter=true&width=680&lines=MLOps+Platform+Engineer;Self-service+ML+infrastructure+on+AWS;Infrastructure+as+Code+%C2%B7+LLM+Agents+%C2%B7+Python" alt="Luis Meyehen Paz" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=1000&color=3DDC84&center=true&vCenter=true&width=680&lines=MLOps+Platform+Engineer;Self-service+ML+infrastructure+on+AWS;Infrastructure+as+Code+%C2%B7+LLM+Agents+%C2%B7+Python" alt="Luis Meyehen Paz" />
 
 </div>
 
