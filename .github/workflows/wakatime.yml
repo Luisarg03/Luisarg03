@@ -37,4 +37,3 @@ jobs:
           SHOW_LANGUAGE_PER_REPO: "False"
           SHOW_TOTAL_CODE_TIME: "False"
           SHOW_UPDATED_DATE: "False"
-          TIME_RANGE: last_30_days
