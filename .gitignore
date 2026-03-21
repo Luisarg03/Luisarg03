@@ -1,0 +1,105 @@
+# ========================
+# General
+# ========================
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+*.iml
+
+.opencode/*
+tasks/*
+tmp/*
+opencode.json
+docs/
+skills-lock.json
+# ========================
+# Python
+# ========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+.eggs/
+*.whl
+.venv/
+venv/
+env/
+ENV/
+.env
+.env.*
+!.env.example
+pip-wheel-metadata/
+.mypy_cache/
+.dmypy.json
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+*.mo
+*.pot
+*.pyc
+*.pycache
+.ipynb_checkpoints/
+*.ipynb
+profile_default/
+ipython_config.py
+celerybeat-schedule
+celerybeat.pid
+instance/
+.webassets-cache
+.scrapy
+docs/_build/
+.pybuilder/
+target/
+.pdm.toml
+__pypackages__/
+
+# ========================
+# Bash / Shell
+# ========================
+*.sh.bak
+*.sh.log
+
+# ========================
+# Node / JS
+# ========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp/
+.pnp.js
+.yarn/
+dist/
+.next/
+out/
+.nuxt/
+.cache/
+.parcel-cache/
+.eslintcache
+*.tsbuildinfo
+
+# ========================
+# Secrets / Credenciales
+# ========================
+*.pem
+*.key
+*.cert
+*.p12
+*.pfx
+secrets/
+credentials/
+.secrets
