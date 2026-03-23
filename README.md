@@ -53,7 +53,11 @@ I build the infrastructure that lets Data Science teams **ship models to product
 
 ```text
 💬 Programming Languages: 
-No Activity Tracked This Week
+Markdown                 45 mins             █████████░░░░░░░░░░░░░░░░   36.03 % 
+YAML                     43 mins             █████████░░░░░░░░░░░░░░░░   34.63 % 
+JSON                     24 mins             █████░░░░░░░░░░░░░░░░░░░░   19.35 % 
+Python                   7 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   05.63 % 
+SQL                      3 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   02.39 % 
 ```
 
 
