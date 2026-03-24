@@ -74,4 +74,7 @@ SQL                      3 mins              ░░░░░░░░░░░�
 
 </div>
 
+<!--START_SECTION:github-stats-->
+<!--END_SECTION:github-stats-->
+
 <br>
