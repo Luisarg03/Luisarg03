@@ -75,7 +75,20 @@ SQL                      3 mins              ░░░░░░░░░░░�
 </div>
 
 <!--START_SECTION:github-stats-->
+<div align="center">
+
+| Metric | Value |
+|--------|-------|
+| Public Repos | 3 |
+| Total Stars | 0 |
+| Followers | 3 |
+| Following | 3 |
+
+*Last updated: 2026-03-27 19:34 UTC*
+
+</div>
 <!--END_SECTION:github-stats-->
+
 
 ---
 
