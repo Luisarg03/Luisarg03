@@ -23,50 +23,58 @@ jobs:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
           python3 - <<'PYEOF'
-          import urllib.request, json, re, os
+          import json
+          import os
+          import re
+          import textwrap
+          import urllib.request
           from datetime import datetime, timezone
 
-          token    = os.environ["GH_TOKEN"]
+          token = os.environ["GH_TOKEN"]
           username = "luisarg03"
-          headers  = {"Authorization": f"token {token}", "User-Agent": "github-actions"}
+          headers = {"Authorization": f"token {token}", "User-Agent": "github-actions"}
 
           def fetch(url):
               req = urllib.request.Request(url, headers=headers)
-              with urllib.request.urlopen(req) as r:
-                  return json.loads(r.read())
+              with urllib.request.urlopen(req) as response:
+                  return json.loads(response.read())
 
-          user  = fetch(f"https://api.github.com/users/{username}")
+          user = fetch(f"https://api.github.com/users/{username}")
           repos = fetch(f"https://api.github.com/users/{username}/repos?per_page=100&type=owner")
 
           public_repos = user["public_repos"]
-          followers    = user["followers"]
-          following    = user["following"]
-          stars        = sum(r["stargazers_count"] for r in repos)
-          updated      = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+          followers = user["followers"]
+          following = user["following"]
+          stars = sum(repo["stargazers_count"] for repo in repos)
+          updated = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
 
-          new_block = f"""<!--START_SECTION:github-stats-->
-<div align="center">
+          new_block = textwrap.dedent(
+              f"""\
+              <!--START_SECTION:github-stats-->
+              <div align="center">
 
-| Metric | Value |
-|--------|-------|
-| Public Repos | {public_repos} |
-| Total Stars | {stars} |
-| Followers | {followers} |
-| Following | {following} |
+              | Metric | Value |
+              |--------|-------|
+              | Public Repos | {public_repos} |
+              | Total Stars | {stars} |
+              | Followers | {followers} |
+              | Following | {following} |
 
-*Last updated: {updated}*
+              *Last updated: {updated}*
 
-</div>
-<!--END_SECTION:github-stats-->"""
+              </div>
+              <!--END_SECTION:github-stats-->
+              """
+          )
 
-          with open("README.md", "r") as f:
-              content = f.read()
+          with open("README.md", "r", encoding="utf-8") as readme_file:
+              content = readme_file.read()
 
-          pattern     = r"<!--START_SECTION:github-stats-->.*?<!--END_SECTION:github-stats-->"
+          pattern = r"<!--START_SECTION:github-stats-->.*?<!--END_SECTION:github-stats-->"
           new_content = re.sub(pattern, new_block, content, flags=re.DOTALL)
 
-          with open("README.md", "w") as f:
-              f.write(new_content)
+          with open("README.md", "w", encoding="utf-8") as readme_file:
+              readme_file.write(new_content)
 
           print(f"Stats updated — repos:{public_repos} stars:{stars} followers:{followers}")
           PYEOF
