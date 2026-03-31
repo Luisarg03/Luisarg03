@@ -53,11 +53,7 @@ I build the infrastructure that lets Data Science teams **ship models to product
 
 ```text
 💬 Programming Languages: 
-Python                   3 hrs 6 mins        ████████████████░░░░░░░░░   64.79 % 
-Markdown                 1 hr 33 mins        ████████░░░░░░░░░░░░░░░░░   32.59 % 
-JSON                     4 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.53 % 
-Image (png)              2 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.78 % 
-HTML                     0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.31 % 
+No Activity Tracked This Week
 ```
 
 
