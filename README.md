@@ -4,7 +4,7 @@
 
 **Cloud & Data Engineer · MLOps**
 
-*Designing and operating the infrastructure that takes models from notebook to production*
+*Building the infrastructure that takes models from notebook to production · Designing agentic workflows for Data Science teams*
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-luisarg03-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/luisarg03/)
 &nbsp;
@@ -18,7 +18,7 @@
 
 𝐑𝐚𝐧𝐝𝐨𝐦 𝐩𝐥𝐚𝐜𝐞 🤔 &nbsp;·&nbsp; Techie in general &nbsp;·&nbsp; Data and programming 🧑🏻‍💻 &nbsp;·&nbsp; I like quiet places 🏕️
 
-Most of my professional experience is centered around **programming** and handling **large volumes of data** across different technologies. In recent years I've been moving toward **MLOps** — bridging the gap between data engineering and machine learning with a focus on **model lifecycle management**, **pipeline orchestration**, and **cloud-native infrastructure**.
+Most of my professional experience is centered around **programming** and handling **large volumes of data** across different technologies. In recent years I've been moving toward **MLOps** — bridging the gap between data engineering and machine learning with a focus on **model lifecycle management**, **pipeline orchestration**, and **cloud-native infrastructure**. Lately I've been building **agentic workflows** that integrate LLMs into the Data Science platform, accelerating model delivery and automating stages of the ML lifecycle.
 
 ---
 
@@ -40,6 +40,15 @@ Most of my professional experience is centered around **programming** and handli
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
 ![Apache Spark](https://img.shields.io/badge/Apache%20Spark-E25A1C?style=flat&logo=apache-spark&logoColor=white)
 
+**🤖 AI & Agentic Workflows**
+
+![OpenAI](https://img.shields.io/badge/OpenAI%20API-412991?style=flat&logo=openai&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat&logo=huggingface&logoColor=black)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
+![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat&logoColor=white)
+
 **🐍 Languages**
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
@@ -57,7 +66,7 @@ Most of my professional experience is centered around **programming** and handli
 
 - **Model serving & deployment** — containerized inference, API design for ML models
 - **Feature stores & data versioning** — reproducible pipelines from raw data to model input
-- **LLMOps** — operationalizing large language models at scale
+- **LLMOps & agentic systems** — building multi-agent workflows with LangChain/LangGraph, integrating LLMs into Data Science platforms to automate ML lifecycle stages
 - **Observability for ML systems** — drift detection, pipeline monitoring, alerting
 
 ---
