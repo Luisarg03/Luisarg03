@@ -1,3 +1,15 @@
+
+
+# ========================
+# Zona temporal de agentes (NUNCA committear)
+# ========================
+# Todo lo que los agentes crean para explorar, debuggear o experimentar
+# va en tmp/<agente>/. Al cierre de sesión se limpia o se promueve.
+tmp/
+.sandbox/
+.scratch/
+
+
 # ========================
 # General
 # ========================
@@ -12,12 +24,6 @@ Thumbs.db
 .vscode/
 *.iml
 
-.opencode/*
-tasks/*
-tmp/*
-opencode.json
-docs/
-skills-lock.json
 # ========================
 # Python
 # ========================
@@ -36,9 +42,6 @@ eggs/
 venv/
 env/
 ENV/
-.env
-.env.*
-!.env.example
 pip-wheel-metadata/
 .mypy_cache/
 .dmypy.json
@@ -95,11 +98,65 @@ out/
 # ========================
 # Secrets / Credenciales
 # ========================
+.env
+.env.*
+!.env.example
 *.pem
 *.key
 *.cert
 *.p12
 *.pfx
+*.p8
+*.pkcs12
 secrets/
 credentials/
 .secrets
+*_rsa
+*_rsa.pub
+*_ecdsa
+*_ecdsa.pub
+*_ed25519
+*_ed25519.pub
+*.token
+*.credentials
+auth.json
+service-account*.json
+gcloud-credentials*.json
+aws-credentials*
+kubeconfig*
+
+# ========================
+# Agentes IA y OpenCode — runtime (NO trackear en proyectos que usan este template)
+# ========================
+# Definiciones de agentes y skills (son del template, no del proyecto)
+.opencode/agents/
+.opencode/skills/
+.github/agents/
+.github/skills/
+
+# Metadata del proyecto (generada por onboarding, contiene info local)
+.opencode/.metadata/
+
+# Estado de sesión y conversaciones
+.opencode/conversations/
+.opencode/cache/
+.opencode/*.log
+.opencode/tmp/
+.opencode/plugins/*
+opencode.json
+# Skills lock (generado automáticamente)
+skills-lock.json
+
+# ========================
+# Memoria y sistema de tareas (runtime, no trackear)
+# ========================
+tasks/in_progress.md
+tasks/done/
+.opencode/.metadata/MEMORY.md
+**/MEMORY.md
+docs/session-logs/*.md
+!docs/session-logs/.keep
+
+
+AGENTS.md
+.keep
