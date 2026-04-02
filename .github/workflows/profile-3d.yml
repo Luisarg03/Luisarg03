@@ -1,9 +1,7 @@
 name: 3D Contribution Calendar
 
 on:
-  schedule:
-    - cron: "10 12 * * *"  # every day at 12:10 UTC
-  workflow_dispatch:       # allow manual trigger
+  workflow_dispatch:       # manual trigger only (schedule disabled)
 
 permissions:
   contents: write
