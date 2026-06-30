@@ -1,14 +1,5 @@
 
 
-# ========================
-# Zona temporal de agentes (NUNCA committear)
-# ========================
-# Todo lo que los agentes crean para explorar, debuggear o experimentar
-# va en tmp/<agente>/. Al cierre de sesión se limpia o se promueve.
-tmp/
-.sandbox/
-.scratch/
-
 
 # ========================
 # General
@@ -17,6 +8,7 @@ tmp/
 Thumbs.db
 *.log
 *.tmp
+tmp
 *.swp
 *.swo
 *~
