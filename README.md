@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./images/header.svg" width="100%" alt="Luis Meyehen Paz — Cloud Platform Engineer"/>
+<img src="./images/header.svg" width="100%" alt="Cloud Platform Engineer"/>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-luisarg03-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/luisarg03/)
 &nbsp;
