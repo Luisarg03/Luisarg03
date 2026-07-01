@@ -1,22 +1,27 @@
 <svg width="860" height="160" viewBox="0 0 860 160" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#0d1117;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#161b22;stop-opacity:1" />
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#161b22"/>
     </linearGradient>
     <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#70a5fd;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#bf91f3;stop-opacity:1" />
+      <stop offset="0%" stop-color="#70a5fd"/>
+      <stop offset="100%" stop-color="#bf91f3"/>
+    </linearGradient>
+    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#70a5fd"/>
+      <stop offset="50%" stop-color="#a78bfa"/>
+      <stop offset="100%" stop-color="#bf91f3"/>
     </linearGradient>
     <filter id="glow">
-      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
       <feMerge>
         <feMergeNode in="coloredBlur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
     <filter id="glow-sm">
-      <feGaussianBlur stdDeviation="1.5" result="coloredBlur"/>
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
       <feMerge>
         <feMergeNode in="coloredBlur"/>
         <feMergeNode in="SourceGraphic"/>
@@ -27,58 +32,58 @@
   <!-- Background -->
   <rect width="860" height="160" fill="url(#bg)" rx="8"/>
 
-  <!-- Accent line left -->
+  <!-- Accent stripe left -->
   <rect x="0" y="0" width="4" height="160" fill="url(#accent)" rx="2"/>
 
-  <!-- Subtle grid lines -->
+  <!-- Grid lines -->
   <line x1="40" y1="0" x2="40" y2="160" stroke="#21262d" stroke-width="1"/>
   <line x1="0" y1="40" x2="860" y2="40" stroke="#21262d" stroke-width="1"/>
   <line x1="0" y1="120" x2="860" y2="120" stroke="#21262d" stroke-width="1"/>
 
-  <!-- Faint background code lines — terminal atmosphere -->
-  <text x="52" y="148" font-family="'Fira Code', 'Cascadia Code', 'Consolas', monospace" font-size="10" fill="#21262d" letter-spacing="0.5">resource "aws_ecs_service" "api" {</text>
-  <text x="52" y="158" font-family="'Fira Code', 'Cascadia Code', 'Consolas', monospace" font-size="10" fill="#21262d" letter-spacing="0.5">  cluster         = aws_ecs_cluster.main.id</text>
+  <!-- Background code fragments — terminal texture -->
+  <text x="52" y="148" font-family="'Fira Code','Cascadia Code',Consolas,monospace" font-size="10" fill="#21262d" letter-spacing="0.5">resource "aws_ecs_service" "api" {</text>
+  <text x="52" y="158" font-family="'Fira Code','Cascadia Code',Consolas,monospace" font-size="10" fill="#21262d" letter-spacing="0.5">  cluster         = aws_ecs_cluster.main.id</text>
 
-  <!-- Corner decorations -->
+  <!-- Corner brackets -->
   <rect x="820" y="8" width="32" height="2" fill="#30363d"/>
   <rect x="850" y="8" width="2" height="32" fill="#30363d"/>
   <rect x="8" y="150" width="32" height="2" fill="#30363d"/>
   <rect x="8" y="118" width="2" height="32" fill="#30363d"/>
 
-  <!-- Title -->
-  <text x="54" y="84" font-family="'Segoe UI', 'SF Pro Display', -apple-system, sans-serif" font-size="15" font-weight="400" fill="#8b949e" letter-spacing="2">Cloud Platform Engineer  ·  IaC  ·  CI/CD  ·  AWS</text>
-
-  <!-- Decorative dots -->
+  <!-- Decorative orbs — depth -->
   <circle cx="720" cy="50" r="40" fill="#70a5fd" opacity="0.03"/>
   <circle cx="780" cy="110" r="60" fill="#bf91f3" opacity="0.03"/>
   <circle cx="840" cy="30" r="20" fill="#70a5fd" opacity="0.05"/>
 
-  <!-- Shell prompt tag — evolved from whoami to platform engineering prompt -->
-  <rect x="620" y="18" width="220" height="24" rx="4" fill="#21262d" stroke="#30363d" stroke-width="1"/>
-  <text x="630" y="34" font-family="'Fira Code', 'Cascadia Code', 'Consolas', monospace" font-size="11" fill="#70a5fd" letter-spacing="0.5">~/luis</text>
-  <text x="680" y="34" font-family="'Fira Code', 'Cascadia Code', 'Consolas', monospace" font-size="11" fill="#8b949e" letter-spacing="0.5"> ❯ </text>
-  <text x="700" y="34" font-family="'Fira Code', 'Cascadia Code', 'Consolas', monospace" font-size="11" fill="#bf91f3" letter-spacing="0.5">terraform apply</text>
+  <!-- ===== LEFT SIDE: Hero text ===== -->
+  <!-- @Luisarg03 — main handle, large gradient -->
+  <text x="54" y="68" font-family="'Fira Code','Cascadia Code',Consolas,monospace" font-size="36" font-weight="700" fill="url(#nameGrad)" filter="url(#glow)">@Luisarg03</text>
 
-  <!-- Blinking cursor after prompt -->
-  <rect x="810" y="22" width="8" height="14" fill="#70a5fd" opacity="0.9" rx="1">
+  <!-- Subtitle — role / specialties -->
+  <text x="56" y="96" font-family="'Segoe UI','SF Pro Display',-apple-system,sans-serif" font-size="14" font-weight="400" fill="#8b949e" letter-spacing="1.5">Cloud Platform Engineer  ·  IaC  ·  CI/CD  ·  AWS</text>
+
+  <!-- ===== RIGHT SIDE: Terminal prompt ===== -->
+  <rect x="580" y="18" width="258" height="24" rx="4" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+  <text x="590" y="34" font-family="'Fira Code','Cascadia Code',Consolas,monospace" font-size="11" fill="#70a5fd" letter-spacing="0.5">~/luis</text>
+  <text x="642" y="34" font-family="'Fira Code','Cascadia Code',Consolas,monospace" font-size="11" fill="#8b949e" letter-spacing="0.5"> ❯ </text>
+  <text x="662" y="34" font-family="'Fira Code','Cascadia Code',Consolas,monospace" font-size="11" fill="#bf91f3" letter-spacing="0.5">terraform apply</text>
+
+  <!-- Blinking cursor -->
+  <rect x="790" y="22" width="8" height="14" fill="#70a5fd" opacity="0.9" rx="1">
     <animate attributeName="opacity" values="0.9;0;0.9" dur="1.2s" repeatCount="indefinite"/>
   </rect>
 
-  <!-- Stack badges — subtle, bottom-right -->
-  <!-- AWS -->
-  <rect x="620" y="130" width="46" height="18" rx="3" fill="#21262d" stroke="#30363d" stroke-width="0.5"/>
-  <text x="630" y="143" font-family="'Segoe UI', sans-serif" font-size="9" fill="#FF9900" letter-spacing="0.5">AWS</text>
+  <!-- ===== BOTTOM RIGHT: Stack badges ===== -->
+  <rect x="580" y="130" width="46" height="18" rx="3" fill="#21262d" stroke="#30363d" stroke-width="0.5"/>
+  <text x="590" y="143" font-family="'Segoe UI',sans-serif" font-size="9" fill="#FF9900" letter-spacing="0.5">AWS</text>
 
-  <!-- Terraform -->
-  <rect x="672" y="130" width="70" height="18" rx="3" fill="#21262d" stroke="#30363d" stroke-width="0.5"/>
-  <text x="680" y="143" font-family="'Segoe UI', sans-serif" font-size="9" fill="#7B42BC" letter-spacing="0.5">Terraform</text>
+  <rect x="632" y="130" width="70" height="18" rx="3" fill="#21262d" stroke="#30363d" stroke-width="0.5"/>
+  <text x="640" y="143" font-family="'Segoe UI',sans-serif" font-size="9" fill="#7B42BC" letter-spacing="0.5">Terraform</text>
 
-  <!-- GH Actions -->
-  <rect x="748" y="130" width="44" height="18" rx="3" fill="#21262d" stroke="#30363d" stroke-width="0.5"/>
-  <text x="755" y="143" font-family="'Segoe UI', sans-serif" font-size="9" fill="#2088FF" letter-spacing="0.5">GH CI</text>
+  <rect x="708" y="130" width="44" height="18" rx="3" fill="#21262d" stroke="#30363d" stroke-width="0.5"/>
+  <text x="715" y="143" font-family="'Segoe UI',sans-serif" font-size="9" fill="#2088FF" letter-spacing="0.5">GH CI</text>
 
-  <!-- Python -->
-  <rect x="798" y="130" width="52" height="18" rx="3" fill="#21262d" stroke="#30363d" stroke-width="0.5"/>
-  <text x="805" y="143" font-family="'Segoe UI', sans-serif" font-size="9" fill="#3776AB" letter-spacing="0.5">Python</text>
+  <rect x="758" y="130" width="52" height="18" rx="3" fill="#21262d" stroke="#30363d" stroke-width="0.5"/>
+  <text x="765" y="143" font-family="'Segoe UI',sans-serif" font-size="9" fill="#3776AB" letter-spacing="0.5">Python</text>
 
 </svg>
