@@ -14,41 +14,17 @@
 
 ---
 
-<img src="./images/neofetch.svg" width="100%" alt="Terminal identity card — luis@arch system information"/>
-
 **Engineer who builds the platform AND the tooling that makes teams faster.**
 
 Cloud Platform Engineer based in Buenos Aires, Argentina. 7+ years on AWS — from infrastructure as code to data pipelines to AI-assisted developer workflows. Quiet places 🏕️ · Techie · Tinkerer of systems that should just work.
 
 ---
 
-#### What I do
-
-▸ **Internal Developer Platforms** — self-service variable catalogs (FastAPI + React), service scaffolding, CI/CD template frameworks adopted by 10+ engineers at Interbank. Developers ship without platform bottlenecks.
-
-▸ **Infrastructure as Code** — migrating and evolving infrastructure from CDK to Terraform. Drift detection, best practices enforcement, production-grade modules.
-
-▸ **Data platform engineering** — ETL pipelines with Glue, Databricks, Trino. Lakehouse architecture. Ingestion from RDS, Salesforce, and event-driven sources.
-
-▸ **AI-assisted developer workflows** — MCP integrations, multi-agent orchestration, prompt patterns. Making Data Science teams faster with local agent tooling.
-
-▸ **Observability** — centralized monitoring from scratch. Step Functions, Glue, Athena, QuickSight. Making cloud spend visible and actionable.
+<img src="./images/what-i-do.svg" width="100%" alt="What I do — terminal panel showing five focus areas"/>
 
 ---
 
-#### Experience
-
-**Cloud Platform Engineer** · Interbank (Peru, remote) · 2023–Present
-
-CI/CD template frameworks in GitHub Actions + Bitbucket Pipelines. ECR images for SageMaker training pipelines. IDP features. MCP integrations for Data Science teams. Centralized process monitoring.
-
-**AWS Data Platform Engineer** · Prisma Medios de Pago (Argentina) · 2022–2023
-
-Large-scale IaC modernization: CDK → Terraform. Data ingestion pipelines with SDLF, event-driven orchestration (SQS, SNS, EventBridge). Salesforce API integration into enterprise Data Lake on S3.
-
-**Data Platform Engineer** · Tiendanube (Argentina) · 2021–2022
-
-ETL pipelines with AWS Glue and Databricks. Lakehouse architecture design. SQL-based data access across teams through Trino.
+<img src="./images/experience.svg" width="100%" alt="Experience — terminal panel showing career history"/>
 
 <details>
 <summary>Full career arc</summary>
@@ -79,7 +55,7 @@ ETL pipelines with AWS Glue and Databricks. Lakehouse architecture design. SQL-b
 
 ---
 
-<img src="./images/skills.svg" width="100%" alt="Terminal panel showing skill categories and technology chips"/>
+<img src="./images/skills.svg" width="100%" alt="Skills — terminal panel showing skill categories and technology chips"/>
 
 ---
 

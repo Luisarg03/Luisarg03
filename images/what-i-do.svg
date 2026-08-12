@@ -1,0 +1,54 @@
+<svg width="900" height="450" viewBox="0 0 900 450" xmlns="http://www.w3.org/2000/svg">
+  <!-- Terminal panel -->
+  <rect width="900" height="450" rx="6" fill="#131820" stroke="#232d3d" stroke-width="1"/>
+
+  <!-- Tab bar -->
+  <rect width="900" height="32" rx="6" fill="#0a0e14"/>
+  <rect y="26" width="900" height="6" fill="#0a0e14"/>
+
+  <!-- Tab label -->
+  <text x="16" y="21" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="11" fill="#7d8794">~/what-i-do</text>
+
+  <!-- Tab dots -->
+  <circle cx="860" cy="16" r="4" fill="#232d3d"/>
+  <circle cx="876" cy="16" r="4" fill="#232d3d"/>
+  <circle cx="892" cy="16" r="4" fill="#232d3d"/>
+
+  <!-- ===== Area 1: Internal Developer Platforms ===== -->
+  <text x="20" y="60" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="13" font-weight="500" fill="#f0b429">▸ Internal Developer Platforms</text>
+  <text x="36" y="84" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="12" fill="#7d8794">self-service variable catalogs (FastAPI + React), service scaffolding,</text>
+  <text x="36" y="102" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="12" fill="#7d8794">CI/CD template frameworks adopted by 10+ engineers at Interbank.</text>
+  <text x="36" y="120" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="12" fill="#7d8794">Developers ship without platform bottlenecks.</text>
+
+  <!-- Separator -->
+  <line x1="20" y1="136" x2="880" y2="136" stroke="#232d3d" stroke-width="1"/>
+
+  <!-- ===== Area 2: Infrastructure as Code ===== -->
+  <text x="20" y="160" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="13" font-weight="500" fill="#f0b429">▸ Infrastructure as Code</text>
+  <text x="36" y="184" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="12" fill="#7d8794">migrating and evolving infrastructure from CDK to Terraform.</text>
+  <text x="36" y="202" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="12" fill="#7d8794">Drift detection, best practices enforcement, production-grade modules.</text>
+
+  <!-- Separator -->
+  <line x1="20" y1="218" x2="880" y2="218" stroke="#232d3d" stroke-width="1"/>
+
+  <!-- ===== Area 3: Data platform engineering ===== -->
+  <text x="20" y="242" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="13" font-weight="500" fill="#f0b429">▸ Data platform engineering</text>
+  <text x="36" y="266" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="12" fill="#7d8794">ETL pipelines with Glue, Databricks, Trino. Lakehouse architecture.</text>
+  <text x="36" y="284" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="12" fill="#7d8794">Ingestion from RDS, Salesforce, and event-driven sources.</text>
+
+  <!-- Separator -->
+  <line x1="20" y1="300" x2="880" y2="300" stroke="#232d3d" stroke-width="1"/>
+
+  <!-- ===== Area 4: AI-assisted developer workflows ===== -->
+  <text x="20" y="324" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="13" font-weight="500" fill="#f0b429">▸ AI-assisted developer workflows</text>
+  <text x="36" y="348" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="12" fill="#7d8794">MCP integrations, multi-agent orchestration, prompt patterns.</text>
+  <text x="36" y="366" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="12" fill="#7d8794">Making Data Science teams faster with local agent tooling.</text>
+
+  <!-- Separator -->
+  <line x1="20" y1="382" x2="880" y2="382" stroke="#232d3d" stroke-width="1"/>
+
+  <!-- ===== Area 5: Observability ===== -->
+  <text x="20" y="406" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="13" font-weight="500" fill="#f0b429">▸ Observability</text>
+  <text x="36" y="430" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="12" fill="#7d8794">centralized monitoring from scratch. Step Functions, Glue, Athena,</text>
+  <text x="36" y="448" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="12" fill="#7d8794">QuickSight. Making cloud spend visible and actionable.</text>
+</svg>
