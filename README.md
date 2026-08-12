@@ -8,21 +8,39 @@
 &nbsp;
 [![GitHub](https://img.shields.io/badge/GitHub-Luisarg03-181717?style=flat&logo=github&logoColor=white)](https://github.com/Luisarg03)
 &nbsp;
-[![Portfolio](https://img.shields.io/badge/Portfolio-luisarg03.github.io-FF9900?style=flat&logo=githubpages&logoColor=white)](https://luisarg03.github.io)
+[![Portfolio](https://img.shields.io/badge/Portfolio-luisarg03.github.io-f0b429?style=flat&logo=githubpages&logoColor=white)](https://luisarg03.github.io)
 
 </div>
 
 ---
 
+```
+                   .--.
+                  |o_o |
+                  |:_/ |
+                 //   \ \
+                (|     | )
+               /'\_   _/`\
+               \___)=(___/
+```
+
+```
+luis@arch ~
+├── OS:       Arch Linux (Hyprland)
+├── Role:     Cloud Platform Engineer
+├── Stack:    7+ years · AWS · Terraform · CI/CD
+├── Focus:    IaC · Data platforms · AI workflows
+├── Location: Buenos Aires, Argentina
+└── Status:   ● open to new opportunities (immediate)
+```
+
 **Engineer who builds the platform AND the tooling that makes teams faster.**
 
 Cloud Platform Engineer based in Buenos Aires, Argentina. 7+ years on AWS — from infrastructure as code to data pipelines to AI-assisted developer workflows. Quiet places 🏕️ · Techie · Tinkerer of systems that should just work.
 
-Currently open to new opportunities — notice period: immediate.
-
 ---
 
-## What I do
+### `[luis@arch ~]$ cat ./what-i-do`
 
 ▸ **Internal Developer Platforms** — self-service variable catalogs (FastAPI + React), service scaffolding, CI/CD template frameworks adopted by 10+ engineers at Interbank. Developers ship without platform bottlenecks.
 
@@ -36,7 +54,7 @@ Currently open to new opportunities — notice period: immediate.
 
 ---
 
-## Selected experience
+### `[luis@arch ~]$ cat ./experience.log`
 
 **Cloud Platform Engineer** · Interbank (Peru, remote) · 2023–Present
 CI/CD template frameworks in GitHub Actions + Bitbucket Pipelines. ECR images for SageMaker training pipelines. IDP features. MCP integrations for Data Science teams. Centralized process monitoring.
@@ -48,7 +66,7 @@ Large-scale IaC modernization: CDK → Terraform. Data ingestion pipelines with 
 ETL pipelines with AWS Glue and Databricks. Lakehouse architecture design. SQL-based data access across teams through Trino.
 
 <details>
-<summary><strong>Full career arc</strong></summary>
+<summary><strong>$ ls ./career-arc/ --full</strong></summary>
 
 **Data Engineer** · Walmart / Dorinka · 2021 — data migration and server decommissioning during Walmart Argentina's transition.
 
@@ -62,7 +80,7 @@ ETL pipelines with AWS Glue and Databricks. Lakehouse architecture design. SQL-b
 
 ---
 
-## Projects
+### `[luis@arch ~]$ ls ./projects/`
 
 ▸ **[OpenDashboard](https://github.com/Luisarg03/OpenDashboard)** — Visualizer for OpenCode agent delegation chains, costs, and token usage. TypeScript.
 
@@ -76,18 +94,22 @@ ETL pipelines with AWS Glue and Databricks. Lakehouse architecture design. SQL-b
 
 ---
 
-## Skills
+### `[luis@arch ~]$ cat ./skills.conf`
 
-<div align="center">
+**Cloud & IaC**
+`AWS` `Terraform` `AWS CDK` `CloudFormation`
 
-| Cloud & IaC | CI/CD & DevOps | Platform | AI & Data | Languages |
-|:---:|:---:|:---:|:---:|:---:|
-| AWS | GitHub Actions | IDPs | MCP | Python |
-| Terraform | GitLab CI | Observability | Agent Orchestration | SQL |
-| AWS CDK | Docker | Cost Management | OpenAI APIs | Bash |
-| CloudFormation | Git | Developer Enablement | AWS Bedrock · opencode · Databricks · Trino | YAML |
+**CI/CD & DevOps**
+`GitHub Actions` `GitLab CI` `Docker` `Git`
 
-</div>
+**Platform**
+`IDPs` `Observability` `Cost Management` `Developer Enablement`
+
+**AI & Data**
+`MCP` `Agent Orchestration` `OpenAI APIs` `AWS Bedrock` `opencode` `Databricks` `Trino`
+
+**Languages**
+`Python` `SQL` `Bash` `YAML`
 
 ---
 
