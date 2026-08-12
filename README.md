@@ -1,61 +1,102 @@
 <div align="center">
 
-<img src="./images/header.svg" width="100%" alt="Luisarg03 — Cloud Platform Engineer"/>
+<img src="./images/header.svg" width="100%" alt="@Luisarg03 — Cloud Platform Engineer"/>
 
 <br/>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-luisarg03-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/luisarg03/)
 &nbsp;
 [![GitHub](https://img.shields.io/badge/GitHub-Luisarg03-181717?style=flat&logo=github&logoColor=white)](https://github.com/Luisarg03)
-
-</div>
-
----
-
-## ☁️ About me
-
-**Cloud Platform Engineer** with **7+ years** building cloud infrastructure, CI/CD pipelines, and Internal Developer Platforms on AWS. Based in Buenos Aires, Argentina. I specialize in **Infrastructure as Code**, **pipeline automation**, and **platform engineering** — making engineering teams ship faster with self-service tooling and reliable, observable infrastructure.
-
-Quiet places 🏕️ · Techie · Tinkerer of systems that should just work.
-
----
-
-## 🛠️ Tech Stack
-
-<div align="center">
-
-| | |
-|---|---|
-| **☁️ Cloud & IaC** | ![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat&logo=amazon-aws&logoColor=white) ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat&logo=terraform&logoColor=white) ![AWS CDK](https://img.shields.io/badge/AWS%20CDK-FF9900?style=flat&logo=amazon-aws&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white) ![ECS](https://img.shields.io/badge/AWS%20ECS-FF9900?style=flat&logo=amazon-aws&logoColor=white) ![Lambda](https://img.shields.io/badge/AWS%20Lambda-FF9900?style=flat&logo=amazon-aws&logoColor=white) ![S3](https://img.shields.io/badge/AWS%20S3-FF9900?style=flat&logo=amazon-aws&logoColor=white) ![DynamoDB](https://img.shields.io/badge/AWS%20DynamoDB-4053D6?style=flat&logo=amazon-dynamodb&logoColor=white) ![IAM](https://img.shields.io/badge/AWS%20IAM-FF9900?style=flat&logo=amazon-aws&logoColor=white) |
-| **🚀 CI/CD & DevOps** | ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat&logo=githubactions&logoColor=white) ![GitLab CI](https://img.shields.io/badge/GitLab%20CI-FC6D26?style=flat&logo=gitlab&logoColor=white) ![Bitbucket](https://img.shields.io/badge/Bitbucket-0052CC?style=flat&logo=bitbucket&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05033?style=flat&logo=git&logoColor=white) |
-| **🏗️ Platform Eng** | ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat&logo=gnu-bash&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-336791?style=flat&logo=postgresql&logoColor=white) |
-| **🤖 AI Tooling** | ![OpenAI](https://img.shields.io/badge/OpenAI%20API-412991?style=flat&logo=openai&logoColor=white) ![GitHub Copilot](https://img.shields.io/badge/GitHub%20Copilot-2088FF?style=flat&logo=githubcopilot&logoColor=white) |
-| **📊 Observability** | ![CloudWatch](https://img.shields.io/badge/AWS%20CloudWatch-FF9900?style=flat&logo=amazon-aws&logoColor=white) ![Athena](https://img.shields.io/badge/AWS%20Athena-FF9900?style=flat&logo=amazon-aws&logoColor=white) ![QuickSight](https://img.shields.io/badge/AWS%20QuickSight-FF9900?style=flat&logo=amazon-aws&logoColor=white) |
-
-</div>
-
----
-
-## 💡 What I do
-
-- **Reusable CI/CD templates** — building GitHub Actions workflow templates that standardize deployments across teams (adopted by 10+ engineers at Interbank)
-- **IaC modernization** — migrating and evolving infrastructure from CDK to Terraform, enforcing best practices and drift detection
-- **Internal Developer Platforms** — self-service tooling (variable catalogs, service scaffolding) that let developers ship without platform bottlenecks
-- **Cost & workload observability** — dashboards and monitoring from scratch, making cloud spend visible and actionable
-- **AI-assisted developer workflows** — MCP integrations, prompt patterns, and local agent workflows that accelerate the development loop
-
----
-
-<div align="center">
-
-### 📫 Get in touch
-
-<a href="https://www.linkedin.com/in/luisarg03/">
-  <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-</a>
 &nbsp;
-<a href="https://github.com/Luisarg03">
-  <img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-</a>
+[![Portfolio](https://img.shields.io/badge/Portfolio-luisarg03.github.io-FF9900?style=flat&logo=githubpages&logoColor=white)](https://luisarg03.github.io)
+
+</div>
+
+---
+
+**Engineer who builds the platform AND the tooling that makes teams faster.**
+
+Cloud Platform Engineer based in Buenos Aires, Argentina. 7+ years on AWS — from infrastructure as code to data pipelines to AI-assisted developer workflows. Quiet places 🏕️ · Techie · Tinkerer of systems that should just work.
+
+Currently open to new opportunities — notice period: immediate.
+
+---
+
+## What I do
+
+▸ **Internal Developer Platforms** — self-service variable catalogs (FastAPI + React), service scaffolding, CI/CD template frameworks adopted by 10+ engineers at Interbank. Developers ship without platform bottlenecks.
+
+▸ **Infrastructure as Code** — migrating and evolving infrastructure from CDK to Terraform. Drift detection, best practices enforcement, production-grade modules.
+
+▸ **Data platform engineering** — ETL pipelines with Glue, Databricks, Trino. Lakehouse architecture. Ingestion from RDS, Salesforce, and event-driven sources.
+
+▸ **AI-assisted developer workflows** — MCP integrations, multi-agent orchestration, prompt patterns. Making Data Science teams faster with local agent tooling.
+
+▸ **Observability** — centralized monitoring from scratch. Step Functions, Glue, Athena, QuickSight. Making cloud spend visible and actionable.
+
+---
+
+## Selected experience
+
+**Cloud Platform Engineer** · Interbank (Peru, remote) · 2023–Present
+CI/CD template frameworks in GitHub Actions + Bitbucket Pipelines. ECR images for SageMaker training pipelines. IDP features. MCP integrations for Data Science teams. Centralized process monitoring.
+
+**AWS Data Platform Engineer** · Prisma Medios de Pago (Argentina) · 2022–2023
+Large-scale IaC modernization: CDK → Terraform. Data ingestion pipelines with SDLF, event-driven orchestration (SQS, SNS, EventBridge). Salesforce API integration into enterprise Data Lake on S3.
+
+**Data Platform Engineer** · Tiendanube (Argentina) · 2021–2022
+ETL pipelines with AWS Glue and Databricks. Lakehouse architecture design. SQL-based data access across teams through Trino.
+
+<details>
+<summary><strong>Full career arc</strong></summary>
+
+**Data Engineer** · Walmart / Dorinka · 2021 — data migration and server decommissioning during Walmart Argentina's transition.
+
+**Data Engineer** · Tsoft · 2020–2021 — automation processes for DirectTV data ingestion via APIs.
+
+**Data Engineer** · Monsun · 2020 — predictive models (SQL Server), ETL pipelines (Pentaho) for Banco Supervielle and AGIP.
+
+**Data Engineer** · Dthink · 2019–2020 — SQL Server databases, ETL with SSIS, Power BI and Metabase dashboards.
+
+</details>
+
+---
+
+## Projects
+
+▸ **[OpenDashboard](https://github.com/Luisarg03/OpenDashboard)** — Visualizer for OpenCode agent delegation chains, costs, and token usage. TypeScript.
+
+▸ **[NexoCode](https://github.com/Luisarg03/NexoCode)** — AI-powered coding agent. Fork of opencode. TypeScript.
+
+▸ **[luisarg03.github.io](https://luisarg03.github.io)** — Personal portfolio site. Astro.
+
+▸ **[projects-archive](https://github.com/Luisarg03/projects-archive)** — Archive of personal projects 2019→present: data science, web, cloud, ML, tools.
+
+▸ **[sagemaker-cicd-poc](https://github.com/Luisarg03/sagemaker-cicd-poc)** — SageMaker CI/CD proof of concept. Python.
+
+---
+
+## Skills
+
+<div align="center">
+
+| Cloud & IaC | CI/CD & DevOps | Platform | AI & Data | Languages |
+|:---:|:---:|:---:|:---:|:---:|
+| AWS | GitHub Actions | IDPs | MCP | Python |
+| Terraform | GitLab CI | Observability | Agent Orchestration | SQL |
+| AWS CDK | Docker | Cost Management | OpenAI APIs | Bash |
+| CloudFormation | Git | Developer Enablement | AWS Bedrock · opencode · Databricks · Trino | YAML |
+
+</div>
+
+---
+
+**AWS DevOps Engineer Professional** (in progress)
+
+---
+
+<div align="center">
+
+[`LinkedIn`](https://www.linkedin.com/in/luisarg03/) · [`GitHub`](https://github.com/Luisarg03) · [`Portfolio`](https://luisarg03.github.io) · `luis.m.paz.03@gmail.com`
 
 </div>
