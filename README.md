@@ -15,16 +15,6 @@
 ---
 
 ```
-                   .--.
-                  |o_o |
-                  |:_/ |
-                 //   \ \
-                (|     | )
-               /'\_   _/`\
-               \___)=(___/
-```
-
-```
 luis@arch ~
 ├── OS:       Arch Linux (Hyprland)
 ├── Role:     Cloud Platform Engineer
@@ -40,7 +30,7 @@ Cloud Platform Engineer based in Buenos Aires, Argentina. 7+ years on AWS — fr
 
 ---
 
-### `[luis@arch ~]$ cat ./what-i-do`
+#### What I do
 
 ▸ **Internal Developer Platforms** — self-service variable catalogs (FastAPI + React), service scaffolding, CI/CD template frameworks adopted by 10+ engineers at Interbank. Developers ship without platform bottlenecks.
 
@@ -54,19 +44,22 @@ Cloud Platform Engineer based in Buenos Aires, Argentina. 7+ years on AWS — fr
 
 ---
 
-### `[luis@arch ~]$ cat ./experience.log`
+#### Experience
 
 **Cloud Platform Engineer** · Interbank (Peru, remote) · 2023–Present
+
 CI/CD template frameworks in GitHub Actions + Bitbucket Pipelines. ECR images for SageMaker training pipelines. IDP features. MCP integrations for Data Science teams. Centralized process monitoring.
 
 **AWS Data Platform Engineer** · Prisma Medios de Pago (Argentina) · 2022–2023
+
 Large-scale IaC modernization: CDK → Terraform. Data ingestion pipelines with SDLF, event-driven orchestration (SQS, SNS, EventBridge). Salesforce API integration into enterprise Data Lake on S3.
 
 **Data Platform Engineer** · Tiendanube (Argentina) · 2021–2022
+
 ETL pipelines with AWS Glue and Databricks. Lakehouse architecture design. SQL-based data access across teams through Trino.
 
 <details>
-<summary><strong>$ ls ./career-arc/ --full</strong></summary>
+<summary>Full career arc</summary>
 
 **Data Engineer** · Walmart / Dorinka · 2021 — data migration and server decommissioning during Walmart Argentina's transition.
 
@@ -80,7 +73,7 @@ ETL pipelines with AWS Glue and Databricks. Lakehouse architecture design. SQL-b
 
 ---
 
-### `[luis@arch ~]$ ls ./projects/`
+#### Projects
 
 ▸ **[OpenDashboard](https://github.com/Luisarg03/OpenDashboard)** — Visualizer for OpenCode agent delegation chains, costs, and token usage. TypeScript.
 
@@ -94,7 +87,7 @@ ETL pipelines with AWS Glue and Databricks. Lakehouse architecture design. SQL-b
 
 ---
 
-### `[luis@arch ~]$ cat ./skills.conf`
+#### Skills
 
 **Cloud & IaC**
 `AWS` `Terraform` `AWS CDK` `CloudFormation`
