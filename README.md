@@ -14,15 +14,7 @@
 
 ---
 
-```
-luis@arch ~
-├── OS:       Arch Linux (Hyprland)
-├── Role:     Cloud Platform Engineer
-├── Stack:    7+ years · AWS · Terraform · CI/CD
-├── Focus:    IaC · Data platforms · AI workflows
-├── Location: Buenos Aires, Argentina
-└── Status:   ● open to new opportunities (immediate)
-```
+<img src="./images/neofetch.svg" width="100%" alt="Terminal identity card — luis@arch system information"/>
 
 **Engineer who builds the platform AND the tooling that makes teams faster.**
 
@@ -87,22 +79,7 @@ ETL pipelines with AWS Glue and Databricks. Lakehouse architecture design. SQL-b
 
 ---
 
-#### Skills
-
-**Cloud & IaC**
-`AWS` `Terraform` `AWS CDK` `CloudFormation`
-
-**CI/CD & DevOps**
-`GitHub Actions` `GitLab CI` `Docker` `Git`
-
-**Platform**
-`IDPs` `Observability` `Cost Management` `Developer Enablement`
-
-**AI & Data**
-`MCP` `Agent Orchestration` `OpenAI APIs` `AWS Bedrock` `opencode` `Databricks` `Trino`
-
-**Languages**
-`Python` `SQL` `Bash` `YAML`
+<img src="./images/skills.svg" width="100%" alt="Terminal panel showing skill categories and technology chips"/>
 
 ---
 

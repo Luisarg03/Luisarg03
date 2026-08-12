@@ -1,0 +1,100 @@
+<svg width="900" height="310" viewBox="0 0 900 310" xmlns="http://www.w3.org/2000/svg">
+  <!-- Terminal panel -->
+  <rect width="900" height="310" rx="6" fill="#131820" stroke="#232d3d" stroke-width="1"/>
+
+  <!-- Tab bar -->
+  <rect width="900" height="32" rx="6" fill="#0a0e14"/>
+  <rect y="26" width="900" height="6" fill="#0a0e14"/>
+
+  <!-- Tab label -->
+  <text x="16" y="21" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="11" fill="#7d8794">~/skills.conf</text>
+
+  <!-- Tab dots -->
+  <circle cx="860" cy="16" r="4" fill="#232d3d"/>
+  <circle cx="876" cy="16" r="4" fill="#232d3d"/>
+  <circle cx="892" cy="16" r="4" fill="#232d3d"/>
+
+  <!-- ===== Cloud & IaC ===== -->
+  <text x="20" y="56" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="12" font-weight="500" fill="#7d8794">Cloud &amp; IaC</text>
+
+  <rect x="20" y="66" width="36" height="22" rx="4" fill="#0a0e14" stroke="#232d3d" stroke-width="1"/>
+  <text x="28" y="81" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="11" fill="#f0b429">AWS</text>
+
+  <rect x="64" y="66" width="76" height="22" rx="4" fill="#0a0e14" stroke="#232d3d" stroke-width="1"/>
+  <text x="72" y="81" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="11" fill="#f0b429">Terraform</text>
+
+  <rect x="148" y="66" width="69" height="22" rx="4" fill="#0a0e14" stroke="#232d3d" stroke-width="1"/>
+  <text x="156" y="81" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="11" fill="#f0b429">AWS CDK</text>
+
+  <rect x="225" y="66" width="109" height="22" rx="4" fill="#0a0e14" stroke="#232d3d" stroke-width="1"/>
+  <text x="233" y="81" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="11" fill="#f0b429">CloudFormation</text>
+
+  <!-- ===== CI/CD & DevOps ===== -->
+  <text x="20" y="110" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="12" font-weight="500" fill="#7d8794">CI/CD &amp; DevOps</text>
+
+  <rect x="20" y="120" width="109" height="22" rx="4" fill="#0a0e14" stroke="#232d3d" stroke-width="1"/>
+  <text x="28" y="135" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="11" fill="#2AD4C9">GitHub Actions</text>
+
+  <rect x="137" y="120" width="76" height="22" rx="4" fill="#0a0e14" stroke="#232d3d" stroke-width="1"/>
+  <text x="145" y="135" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="11" fill="#2AD4C9">GitLab CI</text>
+
+  <rect x="221" y="120" width="56" height="22" rx="4" fill="#0a0e14" stroke="#232d3d" stroke-width="1"/>
+  <text x="229" y="135" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="11" fill="#2AD4C9">Docker</text>
+
+  <rect x="285" y="120" width="36" height="22" rx="4" fill="#0a0e14" stroke="#232d3d" stroke-width="1"/>
+  <text x="293" y="135" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="11" fill="#2AD4C9">Git</text>
+
+  <!-- ===== Platform ===== -->
+  <text x="20" y="164" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="12" font-weight="500" fill="#7d8794">Platform</text>
+
+  <rect x="20" y="174" width="43" height="22" rx="4" fill="#0a0e14" stroke="#232d3d" stroke-width="1"/>
+  <text x="28" y="189" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="11" fill="#7d8794">IDPs</text>
+
+  <rect x="71" y="174" width="102" height="22" rx="4" fill="#0a0e14" stroke="#232d3d" stroke-width="1"/>
+  <text x="79" y="189" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="11" fill="#7d8794">Observability</text>
+
+  <rect x="181" y="174" width="115" height="22" rx="4" fill="#0a0e14" stroke="#232d3d" stroke-width="1"/>
+  <text x="189" y="189" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="11" fill="#7d8794">Cost Management</text>
+
+  <rect x="304" y="174" width="148" height="22" rx="4" fill="#0a0e14" stroke="#232d3d" stroke-width="1"/>
+  <text x="312" y="189" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="11" fill="#7d8794">Developer Enablement</text>
+
+  <!-- ===== AI & Data ===== -->
+  <text x="20" y="218" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="12" font-weight="500" fill="#7d8794">AI &amp; Data</text>
+
+  <rect x="20" y="228" width="36" height="22" rx="4" fill="#0a0e14" stroke="#232d3d" stroke-width="1"/>
+  <text x="28" y="243" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="11" fill="#3fb950">MCP</text>
+
+  <rect x="64" y="228" width="135" height="22" rx="4" fill="#0a0e14" stroke="#232d3d" stroke-width="1"/>
+  <text x="72" y="243" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="11" fill="#3fb950">Agent Orchestration</text>
+
+  <rect x="207" y="228" width="96" height="22" rx="4" fill="#0a0e14" stroke="#232d3d" stroke-width="1"/>
+  <text x="215" y="243" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="11" fill="#3fb950">OpenAI APIs</text>
+
+  <rect x="311" y="228" width="89" height="22" rx="4" fill="#0a0e14" stroke="#232d3d" stroke-width="1"/>
+  <text x="319" y="243" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="11" fill="#3fb950">AWS Bedrock</text>
+
+  <rect x="408" y="228" width="69" height="22" rx="4" fill="#0a0e14" stroke="#232d3d" stroke-width="1"/>
+  <text x="416" y="243" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="11" fill="#3fb950">opencode</text>
+
+  <rect x="485" y="228" width="82" height="22" rx="4" fill="#0a0e14" stroke="#232d3d" stroke-width="1"/>
+  <text x="493" y="243" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="11" fill="#3fb950">Databricks</text>
+
+  <rect x="575" y="228" width="49" height="22" rx="4" fill="#0a0e14" stroke="#232d3d" stroke-width="1"/>
+  <text x="583" y="243" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="11" fill="#3fb950">Trino</text>
+
+  <!-- ===== Languages ===== -->
+  <text x="20" y="272" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="12" font-weight="500" fill="#7d8794">Languages</text>
+
+  <rect x="20" y="282" width="56" height="22" rx="4" fill="#0a0e14" stroke="#232d3d" stroke-width="1"/>
+  <text x="28" y="297" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="11" fill="#d7dde5">Python</text>
+
+  <rect x="84" y="282" width="36" height="22" rx="4" fill="#0a0e14" stroke="#232d3d" stroke-width="1"/>
+  <text x="92" y="297" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="11" fill="#d7dde5">SQL</text>
+
+  <rect x="128" y="282" width="43" height="22" rx="4" fill="#0a0e14" stroke="#232d3d" stroke-width="1"/>
+  <text x="136" y="297" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="11" fill="#d7dde5">Bash</text>
+
+  <rect x="179" y="282" width="43" height="22" rx="4" fill="#0a0e14" stroke="#232d3d" stroke-width="1"/>
+  <text x="187" y="297" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="11" fill="#d7dde5">YAML</text>
+</svg>
