@@ -1,12 +1,12 @@
 <svg width="1200" height="200" viewBox="0 0 1200 200" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0d1117"/>
-      <stop offset="100%" stop-color="#161b22"/>
+      <stop offset="0%" stop-color="#0a0e14"/>
+      <stop offset="100%" stop-color="#131820"/>
     </linearGradient>
     <linearGradient id="accentGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#FF9900"/>
-      <stop offset="100%" stop-color="#FF6600"/>
+      <stop offset="0%" stop-color="#f0b429"/>
+      <stop offset="100%" stop-color="#c4941a"/>
     </linearGradient>
     <filter id="glow">
       <feGaussianBlur stdDeviation="6" result="coloredBlur"/>
@@ -15,8 +15,8 @@
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
-    <filter id="glow-sm">
-      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+    <filter id="glow-teal">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
       <feMerge>
         <feMergeNode in="coloredBlur"/>
         <feMergeNode in="SourceGraphic"/>
@@ -28,56 +28,56 @@
   <rect width="1200" height="200" fill="url(#bg)" rx="0"/>
 
   <!-- Grid lines — blueprint texture -->
-  <line x1="60" y1="0" x2="60" y2="200" stroke="#21262d" stroke-width="0.5"/>
-  <line x1="120" y1="0" x2="120" y2="200" stroke="#21262d" stroke-width="0.5"/>
-  <line x1="0" y1="50" x2="1200" y2="50" stroke="#21262d" stroke-width="0.5"/>
-  <line x1="0" y1="100" x2="1200" y2="100" stroke="#21262d" stroke-width="0.5"/>
-  <line x1="0" y1="150" x2="1200" y2="150" stroke="#21262d" stroke-width="0.5"/>
+  <line x1="60" y1="0" x2="60" y2="200" stroke="#232d3d" stroke-width="0.5"/>
+  <line x1="120" y1="0" x2="120" y2="200" stroke="#232d3d" stroke-width="0.5"/>
+  <line x1="0" y1="50" x2="1200" y2="50" stroke="#232d3d" stroke-width="0.5"/>
+  <line x1="0" y1="100" x2="1200" y2="100" stroke="#232d3d" stroke-width="0.5"/>
+  <line x1="0" y1="150" x2="1200" y2="150" stroke="#232d3d" stroke-width="0.5"/>
 
   <!-- Accent stripe left -->
   <rect x="0" y="0" width="4" height="200" fill="url(#accentGrad)"/>
 
   <!-- Corner brackets -->
-  <rect x="1160" y="10" width="30" height="2" fill="#FF9900" opacity="0.4"/>
-  <rect x="1188" y="10" width="2" height="30" fill="#FF9900" opacity="0.4"/>
-  <rect x="10" y="188" width="30" height="2" fill="#FF9900" opacity="0.4"/>
-  <rect x="10" y="158" width="2" height="30" fill="#FF9900" opacity="0.4"/>
+  <rect x="1160" y="10" width="30" height="2" fill="#f0b429" opacity="0.4"/>
+  <rect x="1188" y="10" width="2" height="30" fill="#f0b429" opacity="0.4"/>
+  <rect x="10" y="188" width="30" height="2" fill="#f0b429" opacity="0.4"/>
+  <rect x="10" y="158" width="2" height="30" fill="#f0b429" opacity="0.4"/>
 
   <!-- Decorative orbs — depth -->
-  <circle cx="950" cy="60" r="50" fill="#FF9900" opacity="0.03"/>
-  <circle cx="1050" cy="140" r="70" fill="#58A6FF" opacity="0.02"/>
-  <circle cx="1100" cy="40" r="25" fill="#FF9900" opacity="0.04"/>
+  <circle cx="950" cy="60" r="50" fill="#f0b429" opacity="0.03"/>
+  <circle cx="1050" cy="140" r="70" fill="#2AD4C9" opacity="0.02"/>
+  <circle cx="1100" cy="40" r="25" fill="#f0b429" opacity="0.04"/>
 
   <!-- ===== LEFT SIDE: Hero text ===== -->
-  <text x="72" y="82" font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,monospace" font-size="44" font-weight="700" fill="#FF9900" filter="url(#glow)">@Luisarg03</text>
+  <text x="72" y="82" font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,monospace" font-size="44" font-weight="700" fill="#f0b429" filter="url(#glow)">@Luisarg03</text>
 
-  <text x="74" y="116" font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,monospace" font-size="15" font-weight="400" fill="#8b949e" letter-spacing="2">CLOUD PLATFORM ENGINEER  ·  IaC  ·  CI/CD  ·  AWS</text>
+  <text x="74" y="116" font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,monospace" font-size="15" font-weight="400" fill="#7d8794" letter-spacing="2">CLOUD PLATFORM ENGINEER  ·  IaC  ·  CI/CD  ·  AWS</text>
 
   <!-- ===== RIGHT SIDE: Terminal prompt ===== -->
-  <rect x="780" y="24" width="390" height="30" rx="5" fill="#161b22" stroke="#30363d" stroke-width="1"/>
-  <text x="794" y="44" font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,monospace" font-size="12" fill="#58A6FF" letter-spacing="0.5">~/platform</text>
-  <text x="890" y="44" font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,monospace" font-size="12" fill="#8b949e" letter-spacing="0.5"> ❯ </text>
-  <text x="914" y="44" font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,monospace" font-size="12" fill="#FF9900" letter-spacing="0.5">terraform apply</text>
+  <rect x="780" y="24" width="390" height="30" rx="5" fill="#131820" stroke="#232d3d" stroke-width="1"/>
+  <text x="794" y="44" font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,monospace" font-size="12" fill="#2AD4C9" letter-spacing="0.5">~/arch</text>
+  <text x="852" y="44" font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,monospace" font-size="12" fill="#7d8794" letter-spacing="0.5"> ❯ </text>
+  <text x="876" y="44" font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,monospace" font-size="12" fill="#f0b429" letter-spacing="0.5">terraform apply</text>
 
   <!-- Blinking cursor -->
-  <rect x="1080" y="29" width="8" height="18" fill="#58A6FF" opacity="0.9" rx="2">
+  <rect x="1044" y="29" width="8" height="18" fill="#2AD4C9" opacity="0.9" rx="2">
     <animate attributeName="opacity" values="0.9;0;0.9" dur="1.2s" repeatCount="indefinite"/>
   </rect>
 
   <!-- ===== BOTTOM RIGHT: Tech badges ===== -->
-  <rect x="780" y="160" width="50" height="22" rx="4" fill="#161b22" stroke="#FF9900" stroke-width="0.5" opacity="0.8"/>
-  <text x="792" y="175" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="10" fill="#FF9900" letter-spacing="0.5">AWS</text>
+  <rect x="780" y="160" width="50" height="22" rx="4" fill="#131820" stroke="#f0b429" stroke-width="0.5" opacity="0.8"/>
+  <text x="792" y="175" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="10" fill="#f0b429" letter-spacing="0.5">AWS</text>
 
-  <rect x="838" y="160" width="82" height="22" rx="4" fill="#161b22" stroke="#7B42BC" stroke-width="0.5" opacity="0.8"/>
+  <rect x="838" y="160" width="82" height="22" rx="4" fill="#131820" stroke="#7B42BC" stroke-width="0.5" opacity="0.8"/>
   <text x="848" y="175" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="10" fill="#7B42BC" letter-spacing="0.5">Terraform</text>
 
-  <rect x="928" y="160" width="56" height="22" rx="4" fill="#161b22" stroke="#58A6FF" stroke-width="0.5" opacity="0.8"/>
-  <text x="936" y="175" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="10" fill="#58A6FF" letter-spacing="0.5">GH CI</text>
+  <rect x="928" y="160" width="56" height="22" rx="4" fill="#131820" stroke="#2AD4C9" stroke-width="0.5" opacity="0.8"/>
+  <text x="936" y="175" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="10" fill="#2AD4C9" letter-spacing="0.5">GH CI</text>
 
-  <rect x="992" y="160" width="62" height="22" rx="4" fill="#161b22" stroke="#3776AB" stroke-width="0.5" opacity="0.8"/>
+  <rect x="992" y="160" width="62" height="22" rx="4" fill="#131820" stroke="#3776AB" stroke-width="0.5" opacity="0.8"/>
   <text x="1000" y="175" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="10" fill="#3776AB" letter-spacing="0.5">Python</text>
 
-  <rect x="1062" y="160" width="108" height="22" rx="4" fill="#161b22" stroke="#FF9900" stroke-width="0.5" opacity="0.8"/>
-  <text x="1070" y="175" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="10" fill="#FF9900" letter-spacing="0.5">AI Workflows</text>
+  <rect x="1062" y="160" width="108" height="22" rx="4" fill="#131820" stroke="#f0b429" stroke-width="0.5" opacity="0.8"/>
+  <text x="1070" y="175" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="10" fill="#f0b429" letter-spacing="0.5">AI Workflows</text>
 
 </svg>
