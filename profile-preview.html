@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Luisarg03 · README preview</title>
+<style>
+  :root{
+    /* brand — the terminal identity, mirrored from brand-spec.md */
+    --bg:#0a0e14; --surface:#131820; --fg:#d7dde5; --muted:#7d8794; --border:#232d3d; --accent:#f0b429;
+    --muted-strong:#9aa3b0; --line-strong:#2f3b4e; --teal:#2AD4C9; --green:#3fb950;
+    --font-display:ui-monospace,'SF Mono','JetBrains Mono','Cascadia Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace;
+    --font-mono:ui-monospace,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace;
+    --font-body:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif;
+    --radius:8px;
+  }
+  /* the surface being previewed: GitHub's own rendering tokens */
+  :root[data-theme="dark"]{
+    --gh-canvas:#0d1117; --gh-fg:#f0f6fc; --gh-muted:#9198a1; --gh-border:#3d444d;
+    --gh-link:#4493f8; --gh-code:rgba(101,108,118,.4); --gh-quote:#3d444d;
+  }
+  /* html[...] matches the :root specificity above, so these win by order.
+     Without them the chrome stays dark while the canvas turns white and the
+     prose (--fg on --gh-canvas) drops to 1.06:1 — unreadable. */
+  html[data-theme="light"]{
+    /* preview chrome, re-pitched for a light page (same hues, inverted lightness) */
+    --bg:#f6f8fa; --surface:#ffffff; --fg:#1f2328; --muted:#59636e; --border:#d1d9e0;
+    --muted-strong:#41474d; --line-strong:#8c959f;
+    --gh-canvas:#ffffff; --gh-fg:#1f2328; --gh-muted:#59636e; --gh-border:#d1d9e0;
+    --gh-link:#0969da; --gh-code:rgba(129,139,152,.12); --gh-quote:#d1d9e0;
+  }
+
+  *,*::before,*::after{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--bg); color:var(--fg);
+    font-family:var(--font-display); font-size:14px; line-height:1.55;
+    -webkit-font-smoothing:antialiased;
+  }
+  a{color:inherit}
+
+  /* ── preview chrome ─────────────────────────────────────────────── */
+  .bar{
+    position:sticky; top:0; z-index:10;
+    background:var(--surface); border-bottom:1px solid var(--border);
+  }
+  .bar-in{
+    max-width:1012px; margin-inline:auto; padding:10px 16px;
+    display:flex; align-items:center; justify-content:space-between; gap:16px;
+  }
+  .bar-id{display:flex; align-items:center; gap:10px; font-size:12.5px; color:var(--muted); min-width:0}
+  .bar-id b{color:var(--fg); font-weight:500}
+  .bar-id .sep{color:var(--border)}
+  .bar-id .file{
+    display:inline-flex; align-items:center; gap:6px; padding:3px 9px;
+    border:1px solid var(--border); border-radius:5px; color:var(--fg); background:var(--bg);
+    font-size:11.5px; letter-spacing:.02em; white-space:nowrap;
+  }
+  .bar-id .file i{width:6px; height:6px; border-radius:50%; background:var(--accent); display:block}
+
+  .seg{display:flex; gap:2px; padding:2px; border:1px solid var(--border); border-radius:var(--radius); background:var(--bg)}
+  .seg button{
+    appearance:none; border:0; background:transparent; color:var(--muted);
+    font:inherit; font-size:11.5px; letter-spacing:.06em; text-transform:uppercase;
+    padding:5px 12px; border-radius:5px; cursor:pointer;
+    transition:background .16s cubic-bezier(.23,1,.32,1), color .16s cubic-bezier(.23,1,.32,1);
+  }
+  .seg button:hover{background:color-mix(in oklch, var(--fg) 9%, transparent); color:var(--fg)}
+  .seg button[aria-pressed="true"]{background:var(--accent); color:var(--bg); font-weight:600}
+  .seg button[aria-pressed="true"]:hover{background:var(--accent); color:var(--bg)}
+  @media (pointer:coarse){ .seg button{padding:11px 16px} }
+
+  /* ── simulated GitHub README surface ────────────────────────────── */
+  .shell{max-width:1012px; margin-inline:auto; padding:28px 16px 56px}
+  .gh{
+    background:var(--gh-canvas); border:1px solid var(--gh-border); border-radius:6px;
+    padding:32px 40px 40px;
+  }
+  .md{font-family:var(--font-body); font-size:16px; line-height:1.5; color:var(--gh-fg); word-wrap:break-word}
+  .md > *:first-child{margin-top:0}
+  .md > *:last-child{margin-bottom:0}
+  .md h2{
+    font-family:var(--font-body); font-size:1.5em; font-weight:600; line-height:1.25;
+    margin:36px 0 16px; padding-bottom:.3em; border-bottom:1px solid var(--gh-border);
+  }
+  .md h2 code{background:var(--gh-code); color:var(--gh-fg); font-size:.8em; font-weight:600}
+  .md p{margin:0 0 16px}
+  .md ul{margin:0 0 16px; padding-left:2em}
+  .md li{margin-top:.25em}
+  .md a{color:var(--gh-link); text-decoration:none}
+  .md a:hover{text-decoration:underline}
+  .md a code{color:var(--gh-link)}
+  .md code{font-family:var(--font-mono); font-size:85%; background:var(--gh-code); padding:.2em .4em; border-radius:6px}
+  .md strong{font-weight:600}
+  .md .center{text-align:center}
+  .md .panel{display:block; width:100%; height:auto; max-width:100%}
+  .md details{margin:0 0 16px}
+  .md summary{cursor:pointer; font-weight:600; color:var(--gh-fg)}
+  .md summary:hover{color:var(--gh-link)}
+  .md details[open] summary{margin-bottom:16px}
+  .md summary:focus-visible{outline:2px solid var(--accent); outline-offset:2px; border-radius:4px}
+  .md section{margin:0}
+
+  .foot{
+    max-width:1012px; margin-inline:auto; padding:0 16px 40px;
+    font-size:11.5px; color:var(--muted); display:flex; flex-wrap:wrap; gap:6px 14px;
+  }
+  .foot code{font-family:var(--font-mono); color:var(--fg); background:var(--bg); border:1px solid var(--border); border-radius:4px; padding:1px 5px}
+
+  @media (max-width:760px){
+    .gh{padding:20px 16px 28px}
+    .bar-in{padding:8px 12px}
+    .bar-id .file{display:none}
+  }
+  @media (prefers-reduced-motion:reduce){
+    *{animation:none !important; transition:none !important}
+  }
+</style>
+</head>
+<body>
+
+<header class="bar" data-od-id="preview-bar">
+  <div class="bar-in">
+    <div class="bar-id">
+      <b>Luisarg03</b><span class="sep">/</span><span>Luisarg03</span>
+      <span class="file"><i></i>README.md</span>
+    </div>
+    <div class="seg" role="group" aria-label="GitHub theme">
+      <button type="button" data-set="dark" aria-pressed="true">Dark</button>
+      <button type="button" data-set="light" aria-pressed="false">Light</button>
+    </div>
+  </div>
+</header>
+
+<div class="shell">
+  <article class="gh md" data-od-id="readme-body">
+<div class="center"><svg xmlns="http://www.w3.org/2000/svg" class="panel" width="900" height="300" viewBox="0 0 900 300" role="img" aria-label="Terminal window: whoami returns @Luisarg03, Cloud Platform Engineer, Buenos Aires, remote-first, with a fact sheet beside it."><style>text{font-family:ui-monospace,'SF Mono','JetBrains Mono','Cascadia Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace}.hdr-cur{animation:hdr-blink 1.15s steps(1,end) infinite}
+.hdr-name{animation:hdr-in .62s cubic-bezier(.23,1,.32,1) forwards}
+@keyframes hdr-blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+@keyframes hdr-in{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){.hdr-cur,.hdr-name{animation:none}}</style><defs><clipPath id="hdr-clip"><rect width="900" height="300" rx="8"/></clipPath><filter id="hdr-glow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter><linearGradient id="hdr-bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#131820"/><stop offset="1" stop-color="#0a0e14"/></linearGradient></defs><g clip-path="url(#hdr-clip)"><rect width="900" height="300" fill="url(#hdr-bg)"/><rect width="900" height="34" fill="#0a0e14"/><text x="18" y="22" font-size="11" fill="#d7dde5"><tspan fill="#2AD4C9">~/</tspan><tspan fill="#d7dde5">whoami</tspan></text><circle cx="846" cy="17" r="3.5" fill="#2f3b4e"/><circle cx="862" cy="17" r="3.5" fill="#2f3b4e"/><circle cx="878" cy="17" r="3.5" fill="#2f3b4e"/><text x="40" y="80" font-size="13" fill="#d7dde5"><tspan fill="#2AD4C9">luis@cloud</tspan><tspan fill="#7d8794">:</tspan><tspan fill="#2AD4C9">~</tspan><tspan fill="#7d8794">$ </tspan><tspan fill="#d7dde5">whoami</tspan></text><text x="40" y="140" font-size="38" fill="#f0b429" font-weight="700" letter-spacing="-0.4" class="hdr-name" filter="url(#hdr-glow)">@Luisarg03</text><text x="40" y="174" font-size="14" fill="#d7dde5" letter-spacing="3">CLOUD PLATFORM ENGINEER</text><text x="40" y="200" font-size="11.5" fill="#9aa3b0">Buenos Aires, Argentina · Remote-first</text><text x="40" y="246" font-size="13" fill="#d7dde5"><tspan fill="#2AD4C9">luis@cloud</tspan><tspan fill="#7d8794">:</tspan><tspan fill="#2AD4C9">~</tspan><tspan fill="#7d8794">$ </tspan></text><rect class="hdr-cur" x="149.2" y="236" width="8" height="15" fill="#f0b429"/><line x1="396" y1="62" x2="396" y2="258" stroke="#232d3d" stroke-width="1"/><text x="546" y="92" font-size="10.5" fill="#7d8794" letter-spacing="0.6" text-anchor="end">experience</text><text x="552" y="92" font-size="10.5" fill="#7d8794">:</text><text x="564" y="92" font-size="12" fill="#d7dde5">7+ years on AWS</text><text x="546" y="118" font-size="10.5" fill="#7d8794" letter-spacing="0.6" text-anchor="end">current</text><text x="552" y="118" font-size="10.5" fill="#7d8794">:</text><text x="564" y="118" font-size="12" fill="#d7dde5">Interbank · Peru (remote)</text><text x="546" y="144" font-size="10.5" fill="#7d8794" letter-spacing="0.6" text-anchor="end">focus</text><text x="552" y="144" font-size="10.5" fill="#7d8794">:</text><text x="564" y="144" font-size="12" fill="#d7dde5">IaC · CI/CD · Platform · Data</text><text x="546" y="170" font-size="10.5" fill="#7d8794" letter-spacing="0.6" text-anchor="end">education</text><text x="552" y="170" font-size="10.5" fill="#7d8794">:</text><text x="564" y="170" font-size="12" fill="#d7dde5">Data Architect · NTT Data Academy</text><text x="546" y="196" font-size="10.5" fill="#7d8794" letter-spacing="0.6" text-anchor="end">cert</text><text x="552" y="196" font-size="10.5" fill="#7d8794">:</text><text x="564" y="196" font-size="12" fill="#d7dde5">AWS DevOps Pro · in progress</text><text x="546" y="222" font-size="10.5" fill="#7d8794" letter-spacing="0.6" text-anchor="end">languages</text><text x="552" y="222" font-size="10.5" fill="#7d8794">:</text><text x="564" y="222" font-size="12" fill="#d7dde5">Spanish native · English intermediate</text></g><rect x="0.5" y="0.5" width="899" height="299" rx="8" fill="none" stroke="#232d3d"/></svg></div>
+<section data-od-id="positioning">
+<h2><code>~/positioning</code></h2>
+<p><strong>I build the platform — and the tooling that makes teams faster on it.</strong></p>
+<p>Cloud Platform Engineer working where infrastructure as code, CI/CD and internal developer platforms meet: Terraform and CDK, GitHub Actions, cost and workload observability, and AI-assisted developer workflows. Seven years on AWS, the last three building platform tooling for Data Science teams at Interbank. Buenos Aires, Argentina · remote-first.</p>
+<p>Outside the terminal: quiet places, and tinkering with systems that should just work.</p>
+</section>
+<section data-od-id="what-i-do">
+<svg xmlns="http://www.w3.org/2000/svg" class="panel" width="900" height="444" viewBox="0 0 900 444" role="img" aria-label="Five areas of work: CI/CD and pipeline automation, Infrastructure as Code, Internal Developer Platforms, cost and workload observability, and AI-assisted developer workflows."><style>text{font-family:ui-monospace,'SF Mono','JetBrains Mono','Cascadia Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace}</style><defs><clipPath id="wid-clip"><rect width="900" height="444" rx="8"/></clipPath><filter id="wid-glow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs><g clip-path="url(#wid-clip)"><rect width="900" height="444" fill="#131820"/><rect width="900" height="34" fill="#0a0e14"/><text x="18" y="22" font-size="11" fill="#d7dde5"><tspan fill="#2AD4C9">~/</tspan><tspan fill="#d7dde5">what-i-do</tspan></text><circle cx="846" cy="17" r="3.5" fill="#2f3b4e"/><circle cx="862" cy="17" r="3.5" fill="#2f3b4e"/><circle cx="878" cy="17" r="3.5" fill="#2f3b4e"/><text x="40" y="74" font-size="12.5" fill="#f0b429">▸</text><text x="56" y="74" font-size="12.5" fill="#d7dde5" font-weight="500">CI/CD &amp; pipeline automation</text><text x="860" y="74" font-size="10" fill="#7d8794" letter-spacing="1" text-anchor="end">01</text><text x="56" y="95" font-size="11.5" fill="#9aa3b0">Reusable GitHub Actions and Bitbucket pipeline templates, adopted by 10+ engineers across</text><text x="56" y="112" font-size="11.5" fill="#9aa3b0">Data Science teams at Interbank. Build, test and deploy without reinventing the wheel.</text><line x1="40" y1="128" x2="860" y2="128" stroke="#232d3d" stroke-width="1"/><text x="40" y="150" font-size="12.5" fill="#f0b429">▸</text><text x="56" y="150" font-size="12.5" fill="#d7dde5" font-weight="500">Infrastructure as Code</text><text x="860" y="150" font-size="10" fill="#7d8794" letter-spacing="1" text-anchor="end">02</text><text x="56" y="171" font-size="11.5" fill="#9aa3b0">The CDK → Terraform migration at Prisma Medios de Pago, plus modules that stay honest:</text><text x="56" y="188" font-size="11.5" fill="#9aa3b0">reviewable plans, drift detection, no snowflake stacks.</text><line x1="40" y1="204" x2="860" y2="204" stroke="#232d3d" stroke-width="1"/><text x="40" y="226" font-size="12.5" fill="#f0b429">▸</text><text x="56" y="226" font-size="12.5" fill="#d7dde5" font-weight="500">Internal Developer Platforms</text><text x="860" y="226" font-size="10" fill="#7d8794" letter-spacing="1" text-anchor="end">03</text><text x="56" y="247" font-size="11.5" fill="#9aa3b0">Self-service tooling that removes toil — a FastAPI + React variable catalog, service</text><text x="56" y="264" font-size="11.5" fill="#9aa3b0">scaffolding, and paved roads that let Data Science teams ship without a ticket.</text><line x1="40" y1="280" x2="860" y2="280" stroke="#232d3d" stroke-width="1"/><text x="40" y="302" font-size="12.5" fill="#f0b429">▸</text><text x="56" y="302" font-size="12.5" fill="#d7dde5" font-weight="500">Cost &amp; workload observability</text><text x="860" y="302" font-size="10" fill="#7d8794" letter-spacing="1" text-anchor="end">04</text><text x="56" y="323" font-size="11.5" fill="#9aa3b0">Monitoring built from scratch — log aggregation, pipeline health, ECS and batch usage,</text><text x="56" y="340" font-size="11.5" fill="#9aa3b0">dashboards and alerts that make cloud spend visible: Step Functions, Glue, Athena, QuickSight.</text><line x1="40" y1="356" x2="860" y2="356" stroke="#232d3d" stroke-width="1"/><text x="40" y="378" font-size="12.5" fill="#f0b429">▸</text><text x="56" y="378" font-size="12.5" fill="#d7dde5" font-weight="500">AI-assisted developer workflows</text><text x="860" y="378" font-size="10" fill="#7d8794" letter-spacing="1" text-anchor="end">05</text><text x="56" y="399" font-size="11.5" fill="#9aa3b0">Reusable MCP servers, agent orchestration and local agent workflows that cut repetitive</text><text x="56" y="416" font-size="11.5" fill="#9aa3b0">work. Built for real teams, used daily — not a slideware pilot.</text></g><rect x="0.5" y="0.5" width="899" height="443" rx="8" fill="none" stroke="#232d3d"/></svg>
+</section>
+<section data-od-id="experience">
+<h2><code>~/experience</code></h2>
+<svg xmlns="http://www.w3.org/2000/svg" class="panel" width="900" height="429" viewBox="0 0 900 429" role="img" aria-label="Career log: Cloud Platform Engineer at Interbank (2023 to now), AWS Data Platform Engineer at Prisma Medios de Pago (2022 to 2023), and Data Platform Engineer at Tiendanube (2021 to 2022)."><style>text{font-family:ui-monospace,'SF Mono','JetBrains Mono','Cascadia Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace}.exp-pill{letter-spacing:.06em}</style><defs><clipPath id="exp-clip"><rect width="900" height="429" rx="8"/></clipPath><filter id="exp-glow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs><g clip-path="url(#exp-clip)"><rect width="900" height="429" fill="#131820"/><rect width="900" height="34" fill="#0a0e14"/><text x="18" y="22" font-size="11" fill="#d7dde5"><tspan fill="#2AD4C9">~/</tspan><tspan fill="#d7dde5">career.log</tspan></text><circle cx="846" cy="17" r="3.5" fill="#2f3b4e"/><circle cx="862" cy="17" r="3.5" fill="#2f3b4e"/><circle cx="878" cy="17" r="3.5" fill="#2f3b4e"/><text x="40" y="72" font-size="12.5" fill="#d7dde5"><tspan fill="#2AD4C9">luis@cloud</tspan><tspan fill="#7d8794">:</tspan><tspan fill="#2AD4C9">~</tspan><tspan fill="#7d8794">$ </tspan><tspan fill="#d7dde5">journalctl -u career --since 2019</tspan></text><text x="40" y="110" font-size="13" fill="#d7dde5" font-weight="500">Cloud Platform Engineer</text><text x="860" y="110" font-size="10.5" fill="#7d8794" letter-spacing="0.6" text-anchor="end">2023 — now</text><text x="40" y="130" font-size="11.5" fill="#2AD4C9">Interbank · Peru (remote)</text><rect x="222.5" y="120" width="49.4" height="15" rx="3" fill="#0a0e14" stroke="#3fb950" stroke-width="1"/><text x="229.5" y="131" font-size="9" fill="#3fb950" letter-spacing="0.6" class="exp-pill">ACTIVE</text><text x="56" y="152" font-size="11.5" fill="#9aa3b0">Leading the Bitbucket → GitHub Actions migration; shared workflow templates, libraries, ECR.</text><text x="56" y="169" font-size="11.5" fill="#9aa3b0">Self-service IDP tooling (FastAPI + React), cost observability, MCP integrations for DS teams.</text><line x1="40" y1="184" x2="860" y2="184" stroke="#232d3d" stroke-width="1"/><text x="40" y="210" font-size="13" fill="#d7dde5" font-weight="500">AWS Data Platform Engineer</text><text x="860" y="210" font-size="10.5" fill="#7d8794" letter-spacing="0.6" text-anchor="end">2022 — 2023</text><text x="40" y="230" font-size="11.5" fill="#2AD4C9">Prisma Medios de Pago · Argentina</text><text x="56" y="252" font-size="11.5" fill="#9aa3b0">Large-scale IaC modernization: migrated platform infrastructure from AWS CDK to Terraform.</text><text x="56" y="269" font-size="11.5" fill="#9aa3b0">Event-driven ingestion with AWS SDLF — SQS, SNS, EventBridge — and Salesforce API into S3.</text><line x1="40" y1="284" x2="860" y2="284" stroke="#232d3d" stroke-width="1"/><text x="40" y="310" font-size="13" fill="#d7dde5" font-weight="500">Data Platform Engineer</text><text x="860" y="310" font-size="10.5" fill="#7d8794" letter-spacing="0.6" text-anchor="end">2021 — 2022</text><text x="40" y="330" font-size="11.5" fill="#2AD4C9">Tiendanube · Argentina</text><text x="56" y="352" font-size="11.5" fill="#9aa3b0">Built ETL pipelines with AWS Glue and Databricks feeding the company Lakehouse platform.</text><text x="56" y="369" font-size="11.5" fill="#9aa3b0">Contributed to the Lakehouse architecture; enabled cross-team SQL access through Trino.</text><text x="40" y="399" font-size="11" fill="#f0b429">▸</text><text x="56" y="399" font-size="11" fill="#7d8794">4 earlier roles · 2019 – 2021 · expanded below</text></g><rect x="0.5" y="0.5" width="899" height="428" rx="8" fill="none" stroke="#232d3d"/></svg>
+<details>
+<summary>Earlier roles · 2019 – 2021</summary>
+<ul>
+<li><strong>Data Engineer</strong> · Walmart / Dorinka · 2021 — data migration and database moves during the transition to Dorinka.</li>
+<li><strong>Data Engineer</strong> · Tsoft · 2020–2021 — DirectTV: API-driven ingestion automation in Python.</li>
+<li><strong>Data Engineer</strong> · Monsun · 2020 — Banco Supervielle (predictive models on SQL Server) and AGIP (Pentaho ETL).</li>
+<li><strong>Data Engineer</strong> · Dthink · 2019–2020 — SQL Server and SSIS pipelines, Power BI and Metabase dashboards for three clients.</li>
+</ul>
+</details>
+</section>
+<section data-od-id="credentials">
+<h2><code>~/credentials</code></h2>
+<ul>
+<li><strong>AWS Certified DevOps Engineer — Professional (DOP-C02)</strong> · in progress</li>
+<li><strong>Data Architect</strong> · NTT Data Academy · 2024</li>
+<li><strong>AWS Skill Builder</strong> · Cloud Practitioner Essentials, Developing on AWS, Well-Architected · completed</li>
+</ul>
+</section>
+<section data-od-id="projects">
+<h2><code>~/projects</code></h2>
+<ul>
+<li><a href="https://github.com/Luisarg03/OpenDashboard"><strong>OpenDashboard</strong></a> — visualiser for OpenCode agent delegation chains: what each subagent did, what it cost, how many tokens it burned. <code>TypeScript</code></li>
+<li><a href="https://github.com/Luisarg03/dsh-memory-vault"><strong>dsh-memory-vault</strong></a> — persistent memory for DeepSeek Harness: an MCP server (SQLite FTS5 + Markdown) plus the <code>memory-mcp</code> and <code>memory-auto</code> plugins. <code>Python</code></li>
+<li><a href="https://github.com/Luisarg03/ArchCustomWidgets"><strong>ArchCustomWidgets</strong></a> — factory of installable widgets and services extending Caelestia (HyDE 3.x) on Arch Linux / Hyprland. <code>Shell</code></li>
+<li><a href="https://github.com/Luisarg03/tabimichi"><strong>tabimichi</strong></a> — 旅道 local discovery: tell it where you are and how long you have, it ranks nearby places by weather, time and taste. <code>TypeScript</code></li>
+<li><a href="https://github.com/Luisarg03/NexoCode"><strong>NexoCode</strong></a> — AI-powered coding agent, a fork of opencode. <code>TypeScript</code></li>
+<li><a href="https://github.com/Luisarg03/sagemaker-cicd-poc"><strong>sagemaker-cicd-poc</strong></a> — SageMaker training pipelines wired into CI/CD. <code>Python</code></li>
+</ul>
+<p>Everything from 2019 onwards — data science, web, cloud, ML — lives in <a href="https://github.com/Luisarg03/projects-archive">projects-archive</a>, and the site itself is <a href="https://luisarg03.github.io">luisarg03.github.io</a>.</p>
+</section>
+<section data-od-id="skills">
+<h2><code>~/skills</code></h2>
+<svg xmlns="http://www.w3.org/2000/svg" class="panel" width="900" height="452" viewBox="0 0 900 452" role="img" aria-label="Skill categories as outlined chips: Cloud and IaC, CI/CD and DevOps, Platform, AI and Agents, Data, and Languages."><style>text{font-family:ui-monospace,'SF Mono','JetBrains Mono','Cascadia Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace}</style><defs><clipPath id="skl-clip"><rect width="900" height="452" rx="8"/></clipPath><filter id="skl-glow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs><g clip-path="url(#skl-clip)"><rect width="900" height="452" fill="#131820"/><rect width="900" height="34" fill="#0a0e14"/><text x="18" y="22" font-size="11" fill="#d7dde5"><tspan fill="#2AD4C9">~/</tspan><tspan fill="#d7dde5">skills.conf</tspan></text><circle cx="846" cy="17" r="3.5" fill="#2f3b4e"/><circle cx="862" cy="17" r="3.5" fill="#2f3b4e"/><circle cx="878" cy="17" r="3.5" fill="#2f3b4e"/><text x="40" y="60" font-size="10" fill="#7d8794" letter-spacing="1.2">CLOUD &amp; IAC</text><text x="860" y="60" font-size="10" fill="#7d8794" letter-spacing="1" text-anchor="end">08</text><rect x="40" y="70" width="37.8" height="24" rx="5" fill="#0a0e14" stroke="#232d3d" stroke-width="1"/><text x="49" y="86" font-size="11" fill="#f0b429">AWS</text><rect x="85.8" y="70" width="77.4" height="24" rx="5" fill="#0a0e14" stroke="#232d3d" stroke-width="1"/><text x="94.8" y="86" font-size="11" fill="#f0b429">Terraform</text><rect x="171.2" y="70" width="64.2" height="24" rx="5" fill="#0a0e14" stroke="#232d3d" stroke-width="1"/><text x="180.2" y="86" font-size="11" fill="#f0b429">AWS CDK</text><rect x="243.4" y="70" width="110.4" height="24" rx="5" fill="#0a0e14" stroke="#232d3d" stroke-width="1"/><text x="252.39999999999998" y="86" font-size="11" fill="#f0b429">CloudFormation</text><rect x="361.8" y="70" width="57.6" height="24" rx="5" fill="#0a0e14" stroke="#232d3d" stroke-width="1"/><text x="370.79999999999995" y="86" font-size="11" fill="#f0b429">Lambda</text><rect x="427.4" y="70" width="37.8" height="24" rx="5" fill="#0a0e14" stroke="#232d3d" stroke-width="1"/><text x="436.4" y="86" font-size="11" fill="#f0b429">ECS</text><rect x="473.2" y="70" width="110.4" height="24" rx="5" fill="#0a0e14" stroke="#232d3d" stroke-width="1"/><text x="482.2" y="86" font-size="11" fill="#f0b429">Step Functions</text><rect x="591.6" y="70" width="31.2" height="24" rx="5" fill="#0a0e14" stroke="#232d3d" stroke-width="1"/><text x="600.6" y="86" font-size="11" fill="#f0b429">S3</text><text x="40" y="126" font-size="10" fill="#7d8794" letter-spacing="1.2">CI/CD &amp; DEVOPS</text><text x="860" y="126" font-size="10" fill="#7d8794" letter-spacing="1" text-anchor="end">05</text><rect x="40" y="136" width="110.4" height="24" rx="5" fill="#0a0e14" stroke="#232d3d" stroke-width="1"/><text x="49" y="152" font-size="11" fill="#2AD4C9">GitHub Actions</text><rect x="158.4" y="136" width="143.4" height="24" rx="5" fill="#0a0e14" stroke="#232d3d" stroke-width="1"/><text x="167.39999999999998" y="152" font-size="11" fill="#2AD4C9">Bitbucket Pipelines</text><rect x="309.8" y="136" width="77.4" height="24" rx="5" fill="#0a0e14" stroke="#232d3d" stroke-width="1"/><text x="318.79999999999995" y="152" font-size="11" fill="#2AD4C9">GitLab CI</text><rect x="395.2" y="136" width="57.6" height="24" rx="5" fill="#0a0e14" stroke="#232d3d" stroke-width="1"/><text x="404.19999999999993" y="152" font-size="11" fill="#2AD4C9">Docker</text><rect x="460.8" y="136" width="37.8" height="24" rx="5" fill="#0a0e14" stroke="#232d3d" stroke-width="1"/><text x="469.79999999999995" y="152" font-size="11" fill="#2AD4C9">Git</text><text x="40" y="192" font-size="10" fill="#7d8794" letter-spacing="1.2">PLATFORM</text><text x="860" y="192" font-size="10" fill="#7d8794" letter-spacing="1" text-anchor="end">04</text><rect x="40" y="202" width="202.8" height="24" rx="5" fill="#0a0e14" stroke="#232d3d" stroke-width="1"/><text x="49" y="218" font-size="11" fill="#d7dde5">Internal Developer Platforms</text><rect x="250.8" y="202" width="103.8" height="24" rx="5" fill="#0a0e14" stroke="#232d3d" stroke-width="1"/><text x="259.79999999999995" y="218" font-size="11" fill="#d7dde5">Observability</text><rect x="362.6" y="202" width="117" height="24" rx="5" fill="#0a0e14" stroke="#232d3d" stroke-width="1"/><text x="371.59999999999997" y="218" font-size="11" fill="#d7dde5">Cost Management</text><rect x="487.6" y="202" width="150" height="24" rx="5" fill="#0a0e14" stroke="#232d3d" stroke-width="1"/><text x="496.59999999999997" y="218" font-size="11" fill="#d7dde5">Developer Enablement</text><text x="40" y="258" font-size="10" fill="#7d8794" letter-spacing="1.2">AI &amp; AGENTS</text><text x="860" y="258" font-size="10" fill="#7d8794" letter-spacing="1" text-anchor="end">05</text><rect x="40" y="268" width="37.8" height="24" rx="5" fill="#0a0e14" stroke="#232d3d" stroke-width="1"/><text x="49" y="284" font-size="11" fill="#3fb950">MCP</text><rect x="85.8" y="268" width="143.4" height="24" rx="5" fill="#0a0e14" stroke="#232d3d" stroke-width="1"/><text x="94.8" y="284" font-size="11" fill="#3fb950">Agent Orchestration</text><rect x="237.2" y="268" width="156.6" height="24" rx="5" fill="#0a0e14" stroke="#232d3d" stroke-width="1"/><text x="246.2" y="284" font-size="11" fill="#3fb950">Multi-agent Workflows</text><rect x="401.8" y="268" width="90.6" height="24" rx="5" fill="#0a0e14" stroke="#232d3d" stroke-width="1"/><text x="410.79999999999995" y="284" font-size="11" fill="#3fb950">AWS Bedrock</text><rect x="500.4" y="268" width="90.6" height="24" rx="5" fill="#0a0e14" stroke="#232d3d" stroke-width="1"/><text x="509.4" y="284" font-size="11" fill="#3fb950">OpenAI APIs</text><text x="40" y="324" font-size="10" fill="#7d8794" letter-spacing="1.2">DATA</text><text x="860" y="324" font-size="10" fill="#7d8794" letter-spacing="1" text-anchor="end">07</text><rect x="40" y="334" width="103.8" height="24" rx="5" fill="#0a0e14" stroke="#232d3d" stroke-width="1"/><text x="49" y="350" font-size="11" fill="#9aa3b0">ETL Pipelines</text><rect x="151.8" y="334" width="64.2" height="24" rx="5" fill="#0a0e14" stroke="#232d3d" stroke-width="1"/><text x="160.8" y="350" font-size="11" fill="#9aa3b0">PySpark</text><rect x="224" y="334" width="84" height="24" rx="5" fill="#0a0e14" stroke="#232d3d" stroke-width="1"/><text x="233" y="350" font-size="11" fill="#9aa3b0">Databricks</text><rect x="316" y="334" width="51" height="24" rx="5" fill="#0a0e14" stroke="#232d3d" stroke-width="1"/><text x="325" y="350" font-size="11" fill="#9aa3b0">Trino</text><rect x="375" y="334" width="57.6" height="24" rx="5" fill="#0a0e14" stroke="#232d3d" stroke-width="1"/><text x="384" y="350" font-size="11" fill="#9aa3b0">Athena</text><rect x="440.6" y="334" width="44.4" height="24" rx="5" fill="#0a0e14" stroke="#232d3d" stroke-width="1"/><text x="449.6" y="350" font-size="11" fill="#9aa3b0">Glue</text><rect x="493" y="334" width="84" height="24" rx="5" fill="#0a0e14" stroke="#232d3d" stroke-width="1"/><text x="502" y="350" font-size="11" fill="#9aa3b0">QuickSight</text><text x="40" y="390" font-size="10" fill="#7d8794" letter-spacing="1.2">LANGUAGES</text><text x="860" y="390" font-size="10" fill="#7d8794" letter-spacing="1" text-anchor="end">04</text><rect x="40" y="400" width="57.6" height="24" rx="5" fill="#0a0e14" stroke="#232d3d" stroke-width="1"/><text x="49" y="416" font-size="11" fill="#9aa3b0">Python</text><rect x="105.6" y="400" width="37.8" height="24" rx="5" fill="#0a0e14" stroke="#232d3d" stroke-width="1"/><text x="114.6" y="416" font-size="11" fill="#9aa3b0">SQL</text><rect x="151.4" y="400" width="44.4" height="24" rx="5" fill="#0a0e14" stroke="#232d3d" stroke-width="1"/><text x="160.39999999999998" y="416" font-size="11" fill="#9aa3b0">Bash</text><rect x="203.8" y="400" width="44.4" height="24" rx="5" fill="#0a0e14" stroke="#232d3d" stroke-width="1"/><text x="212.79999999999998" y="416" font-size="11" fill="#9aa3b0">YAML</text></g><rect x="0.5" y="0.5" width="899" height="451" rx="8" fill="none" stroke="#232d3d"/></svg>
+</section>
+<section data-od-id="contact">
+<h2><code>~/contact</code></h2>
+<p><a href="https://www.linkedin.com/in/luisarg03/"><code>linkedin</code></a> · <a href="https://github.com/Luisarg03"><code>github</code></a> · <a href="https://luisarg03.github.io"><code>portfolio</code></a> · <a href="mailto:luis.m.paz.03@gmail.com"><code>luis.m.paz.03@gmail.com</code></a></p>
+</section>
+  </article>
+</div>
+
+<footer class="foot" data-od-id="preview-foot">
+  <span>Vista previa local del README del perfil — no es la página real de GitHub.</span>
+  <span>Para publicar: <code>README.md</code> + <code>images/</code> → raíz del repo <code>Luisarg03/Luisarg03</code>.</span>
+</footer>
+
+<script>
+  (function () {
+    var root = document.documentElement;
+    var key = 'luisarg03:preview-theme';
+    var buttons = Array.prototype.slice.call(document.querySelectorAll('.seg button'));
+    function apply(theme) {
+      root.setAttribute('data-theme', theme);
+      buttons.forEach(function (b) { b.setAttribute('aria-pressed', String(b.dataset.set === theme)); });
+    }
+    var saved = null;
+    try { saved = localStorage.getItem(key); } catch (e) {}
+    apply(saved === 'light' || saved === 'dark' ? saved : 'dark');
+    buttons.forEach(function (b) {
+      b.addEventListener('click', function () {
+        apply(b.dataset.set);
+        try { localStorage.setItem(key, b.dataset.set); } catch (e) {}
+      });
+    });
+  })();
+</script>
+</body>
+</html>

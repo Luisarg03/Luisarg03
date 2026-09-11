@@ -15,6 +15,7 @@ tmp
 .idea/
 .vscode/
 *.iml
+assets/
 
 # ========================
 # Python
