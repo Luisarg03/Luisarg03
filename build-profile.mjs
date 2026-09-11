@@ -60,14 +60,15 @@ const tw = (s, size, ls = 0) => s.length * size * CH + Math.max(0, s.length - 1)
 
 const ID = {
   handle: '@Luisarg03',
-  role: 'CLOUD PLATFORM ENGINEER',
+  role: 'CLOUD & DATA PLATFORM ENGINEER',
   place: 'Buenos Aires, Argentina · Remote-first',
   user: 'luis@cloud',
   facts: [
     ['experience', '7+ years on AWS'],
     ['current', 'Interbank · Peru (remote)'],
-    ['focus', 'IaC · CI/CD · Platform · Data'],
-    ['education', 'Data Architect · NTT Data Academy'],
+    ['scope', 'MLE Platform team · 15+ Data Scientists'],
+    ['focus', 'Platform · IaC · CI/CD · Data'],
+    ['education', 'Computer Technician · Buenos Aires'],
     ['cert', 'AWS DevOps Pro · in progress'],
     ['languages', 'Spanish native · English intermediate'],
   ],
@@ -75,40 +76,41 @@ const ID = {
 
 const FOCUS = [
   {
-    title: 'CI/CD & pipeline automation',
-    l1: 'Reusable GitHub Actions and Bitbucket pipeline templates, adopted by 10+ engineers across',
-    l2: 'Data Science teams at Interbank. Build, test and deploy without reinventing the wheel.',
-  },{
+    title: 'ML platform for Data Scientists',
+    l1: 'Operate an ABT generator used by 15+ Data Scientists: a LangGraph pipeline with a YAML',
+    l2: 'model registry and fallbacks, emitting .sql materialized in Athena.',
+  },
+  {
     title: 'Infrastructure as Code',
     l1: 'The CDK → Terraform migration at Prisma Medios de Pago, plus modules that stay honest:',
-    l2: 'reviewable plans, drift detection, no snowflake stacks.',
+    l2: 'reviewable plans, reproducible deploys, no snowflake stacks.',
   },
   {
     title: 'Internal Developer Platforms',
-    l1: 'Self-service tooling that removes toil — a FastAPI + React variable catalog, service',
-    l2: 'scaffolding, and paved roads that let Data Science teams ship without a ticket.',
+    l1: 'Self-service tooling that removes toil — a FastAPI + React variable catalog, drift and',
+    l2: 'pipeline monitoring with quality checks, and paved roads that ship without a ticket.',
   },
   {
-    title: 'Cost & workload observability',
-    l1: 'Monitoring built from scratch — log aggregation, pipeline health, ECS and batch usage,',
-    l2: 'dashboards and alerts that make cloud spend visible: Step Functions, Glue, Athena, QuickSight.',
+    title: 'CI/CD & pipeline automation',
+    l1: 'Reusable GitHub Actions, Bitbucket, CodePipeline and CodeBuild templates for Data Science',
+    l2: 'teams, so build, test and deploy never get reinvented per project.',
   },
   {
-    title: 'AI-assisted developer workflows',
-    l1: 'Reusable MCP servers, agent orchestration and local agent workflows that cut repetitive',
-    l2: 'work. Built for real teams, used daily — not a slideware pilot.',
+    title: 'Data platform & reliability',
+    l1: 'Event-driven ingestion into SDLF lakes, from on-premise IBM/Mainframe sources to the',
+    l2: 'Salesforce API, with quality checks and monitoring. Automate the repetitive, own reliability.',
   },
 ];
 
 const CAREER = [
   {
-    title: 'Cloud Platform Engineer',
+    title: 'Cloud Engineer',
     org: 'Interbank · Peru (remote)',
     dates: '2023 — now',
     active: true,
     lines: [
-      'Leading the Bitbucket → GitHub Actions migration; shared workflow templates, libraries, ECR.',
-      'Self-service IDP tooling (FastAPI + React), cost observability, MCP integrations for DS teams.',
+      'Operate the ABT generator for 15+ Data Scientists: LangGraph, YAML registry, SQL in Athena.',
+      'Variable catalog (FastAPI + React), drift and pipeline monitoring, CI/CD templates for DS.',
     ],
   },
   {
@@ -116,27 +118,28 @@ const CAREER = [
     org: 'Prisma Medios de Pago · Argentina',
     dates: '2022 — 2023',
     lines: [
-      'Large-scale IaC modernization: migrated platform infrastructure from AWS CDK to Terraform.',
-      'Event-driven ingestion with AWS SDLF — SQS, SNS, EventBridge — and Salesforce API into S3.',
+      'Migrated legacy AWS CDK (SDLF) platform infrastructure to Terraform, with GitLab CI.',
+      'Event-driven ingestion into the SDLF lake — IBM/Mainframe on-premise sources + Salesforce API.',
     ],
   },
   {
-    title: 'Data Platform Engineer',
+    title: 'Data Engineer',
     org: 'Tiendanube · Argentina',
     dates: '2021 — 2022',
     lines: [
-      'Built ETL pipelines with AWS Glue and Databricks feeding the company Lakehouse platform.',
-      'Contributed to the Lakehouse architecture; enabled cross-team SQL access through Trino.',
+      'Built end-to-end ingestion ETL in a 4-person team starting the company lakehouse.',
+      'Airflow orchestration, Glue and Databricks processing, S3 and Redshift storage, Trino queries.',
     ],
   },
 ];
 
 const SKILLS = [
-  { label: 'CLOUD & IAC', tone: 'accent', items: ['AWS', 'Terraform', 'AWS CDK', 'CloudFormation', 'Lambda', 'ECS', 'Step Functions', 'S3'] },
-  { label: 'CI/CD & DEVOPS', tone: 'teal', items: ['GitHub Actions', 'Bitbucket Pipelines', 'GitLab CI', 'Docker', 'Git'] },
-  { label: 'PLATFORM', tone: 'fg', items: ['Internal Developer Platforms', 'Observability', 'Cost Management', 'Developer Enablement'] },
-  { label: 'AI & AGENTS', tone: 'green', items: ['MCP', 'Agent Orchestration', 'Multi-agent Workflows', 'AWS Bedrock', 'OpenAI APIs'] },
-  { label: 'DATA', tone: 'mutedStrong', items: ['ETL Pipelines', 'PySpark', 'Databricks', 'Trino', 'Athena', 'Glue', 'QuickSight'] },
+  { label: 'CLOUD & IAC', tone: 'accent', items: ['AWS', 'Terraform', 'AWS CDK', 'CloudFormation', 'Lambda', 'Step Functions', 'Glue', 'Athena', 'S3', 'SageMaker', 'EMR', 'ECS', 'ECR', 'DynamoDB'] },
+  { label: 'CI/CD & DEVOPS', tone: 'teal', items: ['GitHub Actions', 'GitLab CI', 'CodePipeline', 'CodeBuild', 'Bitbucket', 'Docker', 'Git', 'Linux'] },
+  { label: 'PLATFORM', tone: 'fg', items: ['Internal Developer Platforms', 'Observability', 'Drift Detection', 'Data Quality', 'Developer Enablement'] },
+  { label: 'AI & AGENTS', tone: 'green', items: ['LangGraph', 'Agent Orchestration', 'AWS Bedrock', 'OpenAI APIs', 'opencode'] },
+  { label: 'DATA', tone: 'mutedStrong', items: ['ETL Pipelines', 'SQL', 'PySpark', 'Databricks', 'Trino', 'Airflow', 'Pentaho', 'SSIS'] },
+  { label: 'DATABASES', tone: 'mutedStrong', items: ['SQL Server', 'Oracle', 'PostgreSQL', 'MySQL', 'Athena', 'Redshift', 'BigQuery'] },
   { label: 'LANGUAGES', tone: 'mutedStrong', items: ['Python', 'SQL', 'Bash', 'YAML'] },
 ];
 
@@ -265,7 +268,7 @@ class Panel {
 function headerSvg() {
   const H = 300;
   const p = new Panel('hdr', H);
-  p.alt = 'Terminal window: whoami returns @Luisarg03, Cloud Platform Engineer, Buenos Aires, remote-first, with a fact sheet beside it.';
+  p.alt = 'Terminal window: whoami returns @Luisarg03, Cloud and Data Platform Engineer, Buenos Aires, remote-first, with a fact sheet beside it.';
   p.chrome('whoami', true);
 
   const prompt = (x, y, size, cmd) =>
@@ -298,7 +301,7 @@ function focusSvg() {
   const pitch = 76, first = 74;
   const H = first + pitch * (FOCUS.length - 1) + 38 + 28;
   const p = new Panel('wid', H);
-  p.alt = 'Five areas of work: CI/CD and pipeline automation, Infrastructure as Code, Internal Developer Platforms, cost and workload observability, and AI-assisted developer workflows.';
+  p.alt = 'Five areas of work: the ML platform for Data Scientists, Infrastructure as Code, Internal Developer Platforms, CI/CD and pipeline automation, and data platform reliability.';
   p.chrome('what-i-do');
 
   FOCUS.forEach((f, i) => {
@@ -318,7 +321,7 @@ function careerSvg() {
   const pitch = 100, first = 110;
   const H = first + pitch * (CAREER.length - 1) + 59 + 60;
   const p = new Panel('exp', H);
-  p.alt = 'Career log: Cloud Platform Engineer at Interbank (2023 to now), AWS Data Platform Engineer at Prisma Medios de Pago (2022 to 2023), and Data Platform Engineer at Tiendanube (2021 to 2022).';
+  p.alt = 'Career log: Cloud Engineer at Interbank (2023 to now), AWS Data Platform Engineer at Prisma Medios de Pago (2022 to 2023), and Data Engineer at Tiendanube (2021 to 2022).';
   p.chrome('career.log');
 
   const cmd = 'journalctl -u career --since 2019';
@@ -354,25 +357,51 @@ function careerSvg() {
 }
 
 function skillsSvg() {
-  const pitch = 66, first = 60;
-  const H = first + pitch * (SKILLS.length - 1) + 34 + 28;
+  /* Chips wrap inside the one 900-unit column: a category opens with its label
+     baseline, then as many 24px chip rows as its items need. The panel height is
+     computed from that layout, capped by the tallest column the chips may occupy. */
+  const CHIP_H = 24, CHIP_GAP = 8, CHIP_LEAD = 10, ROW_PITCH = 32;
+  const CAT_GAP = 16, FIRST = 60, FOOT = 28;
+  const RIGHT = W - 36;
+
+  /* split each category's items into rows that fit the column */
+  const layout = SKILLS.map((cat) => {
+    const rows = [];
+    let row = [], x = 40;
+    for (const item of cat.items) {
+      const cw = tw(item, 11) + 18;
+      if (row.length && x + cw > RIGHT) { rows.push({ items: row, end: x - CHIP_GAP }); row = []; x = 40; }
+      row.push({ item, w: cw, x });
+      x += cw + CHIP_GAP;
+    }
+    rows.push({ items: row, end: x - CHIP_GAP });
+    return { cat, rows };
+  });
+
+  const blockH = layout.map(({ rows }) => CHIP_LEAD + rows.length * ROW_PITCH - CHIP_GAP + CAT_GAP);
+  const H = FIRST + blockH.reduce((a, b) => a + b, 0) - CAT_GAP + FOOT;
+
   const p = new Panel('skl', H);
-  p.alt = 'Skill categories as outlined chips: Cloud and IaC, CI/CD and DevOps, Platform, AI and Agents, Data, and Languages.';
+  p.alt = 'Skill categories as outlined chips: Cloud and IaC, CI/CD and DevOps, Platform, AI and Agents, Data, Databases, and Languages.';
   p.chrome('skills.conf');
 
-  SKILLS.forEach((cat, i) => {
-    const y = first + i * pitch;
+  let y = FIRST;
+  layout.forEach(({ cat, rows }, i) => {
     p.text({ x: 40, y, size: 10, fill: P.muted, body: esc(cat.label), ls: 1.2, note: cat.label });
     p.text({ x: W - 40, y, size: 10, fill: P.muted, body: String(cat.items.length).padStart(2, '0'), anchor: 'end', ls: 1, note: 'count' });
-    let x = 40;
-    cat.items.forEach((item) => {
-      const cw = tw(item, 11) + 18;
-      p.rect(x, y + 10, cw, 24, { rx: 5, fill: P.bg, stroke: P.border });
-      const t = p.text({ x: x + 9, y: y + 26, size: 11, fill: P[cat.tone], body: esc(item), note: `${cat.label}/${item}` });
-      p.assert(t.right <= x + cw - 6, `chip "${item}" text overflows its box`);
-      x += cw + 8;
+
+    rows.forEach((row, r) => {
+      const ry = y + CHIP_LEAD + r * ROW_PITCH;
+      row.items.forEach(({ item, w, x: cx }) => {
+        p.rect(cx, ry, w, CHIP_H, { rx: 5, fill: P.bg, stroke: P.border });
+        const t = p.text({ x: cx + 9, y: ry + 16, size: 11, fill: P[cat.tone], body: esc(item), note: `${cat.label}/${item}` });
+        p.assert(t.right <= cx + w - 6, `chip "${item}" text overflows its box`);
+      });
+      p.assert(row.end <= RIGHT, `${cat.label} row ${r + 1} chips end at ${row.end.toFixed(1)}`);
     });
-    p.assert(x - 8 <= W - 36, `${cat.label} chips end at ${(x - 8).toFixed(1)}`);
+
+    y += blockH[i];
+    if (i < layout.length - 1) p.line(40, y - CAT_GAP, W - 40, y - CAT_GAP, P.border);
   });
   return p;
 }
@@ -385,48 +414,48 @@ const a = (href, label) => `<a href="${href}"><code>${label}</code></a>`;
 const li = (html) => ({ k: 'li', html });
 
 const BLOCKS = [
-  { k: 'centerImg', src: './images/header.svg', alt: 'Terminal window: whoami returns @Luisarg03, Cloud Platform Engineer — Buenos Aires, Argentina, remote-first — next to a fact sheet: 7+ years on AWS, currently at Interbank, focused on IaC, CI/CD, platform and data.' },
+  { k: 'centerImg', src: './images/header.svg', alt: 'Terminal window: whoami returns @Luisarg03, Cloud and Data Platform Engineer — Buenos Aires, Argentina, remote-first — next to a fact sheet: 7+ years on AWS, currently at Interbank on the MLE Platform team serving 15+ Data Scientists.' },
 
   { k: 'h2', text: '~/positioning', id: 'positioning' },
   { k: 'p', html: '<strong>I build the platform — and the tooling that makes teams faster on it.</strong>' },
-  { k: 'p', html: 'Cloud Platform Engineer working where infrastructure as code, CI/CD and internal developer platforms meet: Terraform and CDK, GitHub Actions, cost and workload observability, and AI-assisted developer workflows. Seven years on AWS, the last three building platform tooling for Data Science teams at Interbank. Buenos Aires, Argentina · remote-first.' },
+  { k: 'p', html: 'Cloud &amp; Data Platform Engineer working where infrastructure as code, CI/CD and internal developer platforms meet: Terraform and CDK, GitHub Actions, data quality and drift monitoring, and self-service tooling for Data Science teams. Seven years on AWS, the last three operating the ML platform that serves 15+ Data Scientists at Interbank. Buenos Aires, Argentina · remote-first.' },
   { k: 'p', html: 'Outside the terminal: quiet places, and tinkering with systems that should just work.' },
 
-  { k: 'img', id: 'what-i-do', src: './images/what-i-do.svg', alt: 'Five areas of work: CI/CD and pipeline automation, Infrastructure as Code, Internal Developer Platforms, cost and workload observability, and AI-assisted developer workflows.' },
+  { k: 'img', id: 'what-i-do', src: './images/what-i-do.svg', alt: 'Five areas of work: the ML platform for Data Scientists, Infrastructure as Code, Internal Developer Platforms, CI/CD and pipeline automation, and data platform reliability.' },
 
   { k: 'h2', text: '~/experience', id: 'experience' },
-  { k: 'img', src: './images/experience.svg', alt: 'Career log: Cloud Platform Engineer at Interbank (2023 to now), AWS Data Platform Engineer at Prisma Medios de Pago (2022 to 2023), Data Platform Engineer at Tiendanube (2021 to 2022).' },
+  { k: 'img', src: './images/experience.svg', alt: 'Career log: Cloud Engineer at Interbank (2023 to now), AWS Data Platform Engineer at Prisma Medios de Pago (2022 to 2023), and Data Engineer at Tiendanube (2021 to 2022).' },
   {
     k: 'details', summary: 'Earlier roles · 2019 – 2021', blocks: [
       { k: 'ul', items: [
-        li('<strong>Data Engineer</strong> · Walmart / Dorinka · 2021 — data migration and database moves during the transition to Dorinka.'),
-        li('<strong>Data Engineer</strong> · Tsoft · 2020–2021 — DirectTV: API-driven ingestion automation in Python.'),
-        li('<strong>Data Engineer</strong> · Monsun · 2020 — Banco Supervielle (predictive models on SQL Server) and AGIP (Pentaho ETL).'),
-        li('<strong>Data Engineer</strong> · Dthink · 2019–2020 — SQL Server and SSIS pipelines, Power BI and Metabase dashboards for three clients.'),
+        li('<strong>Data Engineer</strong> · Walmart / Dorinka · 2021 — migrated databases to Oracle Cloud with data integrity during the transition from Walmart Argentina.'),
+        li('<strong>Data Engineer</strong> · Tsoft · 2020–2021 — DirectTV: automated ingestion and transformation from external APIs in Python.'),
+        li('<strong>Data Engineer</strong> · Monsun · 2020 — Banco Supervielle (predictive models on SQL Server) and AGIP (process automation and ETL).'),
+        li('<strong>Data Engineer</strong> · Dthink · 2019–2020 — databases, ETL processes and BI dashboards for Hendel Hogar, Secretaría de Salud and Wunderman Thompson.'),
       ] },
     ],
   },
 
   { k: 'h2', text: '~/credentials', id: 'credentials' },
   { k: 'ul', items: [
-    li('<strong>AWS Certified DevOps Engineer — Professional (DOP-C02)</strong> · in progress'),
-    li('<strong>Data Architect</strong> · NTT Data Academy · 2024'),
+    li('<strong>AWS Certified DevOps Engineer — Professional (DOP-C02)</strong> · in progress, target Q4 2026'),
     li('<strong>AWS Skill Builder</strong> · Cloud Practitioner Essentials, Developing on AWS, Well-Architected · completed'),
+    li('<strong>Computer Technician</strong> · Sec. Técnica N°3 · Buenos Aires'),
   ] },
 
   { k: 'h2', text: '~/projects', id: 'projects' },
   { k: 'ul', items: [
-    li(`<a href="https://github.com/Luisarg03/OpenDashboard"><strong>OpenDashboard</strong></a> — visualiser for OpenCode agent delegation chains: what each subagent did, what it cost, how many tokens it burned. <code>TypeScript</code>`),
+    li(`<a href="https://github.com/Luisarg03/OpenDashboard"><strong>OpenDashboard</strong></a> — visualizer for OpenCode agent delegation chains: what each subagent did, what it cost, how many tokens it burned. <code>TypeScript</code>`),
     li(`<a href="https://github.com/Luisarg03/dsh-memory-vault"><strong>dsh-memory-vault</strong></a> — persistent memory for DeepSeek Harness: an MCP server (SQLite FTS5 + Markdown) plus the <code>memory-mcp</code> and <code>memory-auto</code> plugins. <code>Python</code>`),
     li(`<a href="https://github.com/Luisarg03/ArchCustomWidgets"><strong>ArchCustomWidgets</strong></a> — factory of installable widgets and services extending Caelestia (HyDE 3.x) on Arch Linux / Hyprland. <code>Shell</code>`),
     li(`<a href="https://github.com/Luisarg03/tabimichi"><strong>tabimichi</strong></a> — 旅道 local discovery: tell it where you are and how long you have, it ranks nearby places by weather, time and taste. <code>TypeScript</code>`),
     li(`<a href="https://github.com/Luisarg03/NexoCode"><strong>NexoCode</strong></a> — AI-powered coding agent, a fork of opencode. <code>TypeScript</code>`),
     li(`<a href="https://github.com/Luisarg03/sagemaker-cicd-poc"><strong>sagemaker-cicd-poc</strong></a> — SageMaker training pipelines wired into CI/CD. <code>Python</code>`),
   ] },
-  { k: 'p', html: `Everything from 2019 onwards — data science, web, cloud, ML — lives in <a href="https://github.com/Luisarg03/projects-archive">projects-archive</a>, and the site itself is <a href="${LINKS.portfolio}">luisarg03.github.io</a>.` },
+  { k: 'p', html: `Everything from 2019 onwards — data science, web, cloud, ML — lives in <a href="https://github.com/Luisarg03/projects-archive">projects-archive</a>, and this profile is <a href="https://github.com/Luisarg03/Luisarg03">its own repository</a>.` },
 
   { k: 'h2', text: '~/skills', id: 'skills' },
-  { k: 'img', src: './images/skills.svg', alt: 'Skill categories as chips: Cloud and IaC (AWS, Terraform, AWS CDK, CloudFormation, Lambda, ECS, Step Functions, S3), CI/CD and DevOps, Platform, AI and Agents, Data, and Languages.' },
+  { k: 'img', src: './images/skills.svg', alt: 'Skill categories as chips: Cloud and IaC (AWS, Terraform, AWS CDK, CloudFormation, Lambda, Step Functions, Glue, Athena, S3, SageMaker, EMR, ECS, ECR, DynamoDB), CI/CD and DevOps, Platform, AI and Agents, Data, Databases, and Languages.' },
 
   { k: 'h2', text: '~/contact', id: 'contact' },
   { k: 'p', html: `${a(LINKS.linkedin, 'linkedin')} · ${a(LINKS.github, 'github')} · ${a(LINKS.portfolio, 'portfolio')} · ${a(LINKS.email, 'luis.m.paz.03@gmail.com')}` },

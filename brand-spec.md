@@ -57,3 +57,39 @@ reader's GitHub stack, because that is the surface being designed for.
 5. **One column, one measure.** Every panel is exactly 900 units wide so the set scales as a
    single column in GitHub's 1012px README container, and every date, count and index is
    right-aligned to a strict right margin.
+6. **Chips wrap, they never shrink.** A skill row fills the column and continues on the next
+   row at x=40; the panel height is computed from the wrapped layout, not fixed in advance.
+
+## Content vocabulary
+
+The visual system is only half the spec — the words need one source of truth too, or the
+profile drifts from the CV. Canonical sources, in order of authority:
+
+1. `MyCv/assets/profile.yaml` — facts, contact, skills, education.
+2. `MyCv/outputs/luis-meyehen-paz-resume.md` — the rendered CV, same facts in prose.
+3. This repo's `build-profile.mjs` — the only place those facts may be reworded.
+
+Rules a future edit must not break:
+
+- **Title.** `Cloud & Data Platform Engineer`. At Interbank the formal title is **Cloud
+  Engineer** and the functional one is **Cloud & Data Platform Engineer**; the career panel
+  uses the formal title and the prose uses both.
+- **The audience figure is `15+ Data Scientists`** served by the ML platform. The older `10+`
+  figure is obsolete — do not reintroduce it.
+- **The Tiendanube title is `Data Engineer`**, not `Data Platform Engineer`.
+- **Education is `Computer Technician · Sec. Técnica N°3 · Buenos Aires`.** The
+  `Data Architect · NTT Data Academy 2024` credential was deliberately removed from the CV,
+  from `profile.yaml` and from this profile. Never re-add it.
+- **The only certification shown is `AWS Certified DevOps Engineer — Professional (DOP-C02)`,
+  in progress, target Q4 2026.**
+- **Skills come from the `skills:` block of `profile.yaml`**, spelled exactly as written there
+  (`opencode` lowercase, `Elasticsearch` camelCase). Never add a technology that does not
+  appear in that block.
+- **No invented metrics.** Every number in the README is either the count of a list that
+  exists in the canonical sources or a date. A claim that cannot be traced to `profile.yaml`
+  or the CV does not ship.
+- **MCP is personal practice, not a production Interbank claim.** The Interbank work is the
+  ABT generator (LangGraph + YAML registry + SQL in Athena), the variable catalog, drift and
+  pipeline monitoring, and CI/CD templates.
+- **The hero identity is the `@Luisarg03` handle.** The full name never appears in a panel or
+  in alt text; it may appear in plain prose.
