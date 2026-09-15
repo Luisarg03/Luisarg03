@@ -114,7 +114,7 @@ const CAREER = [
     ],
   },
   {
-    title: 'AWS Data Platform Engineer',
+    title: 'Data Engineer',
     org: 'Prisma Medios de Pago · Argentina',
     dates: '2022 — 2023',
     lines: [
@@ -321,7 +321,7 @@ function careerSvg() {
   const pitch = 100, first = 110;
   const H = first + pitch * (CAREER.length - 1) + 59 + 60;
   const p = new Panel('exp', H);
-  p.alt = 'Career log: Cloud Engineer at Interbank (2023 to now), AWS Data Platform Engineer at Prisma Medios de Pago (2022 to 2023), and Data Engineer at Tiendanube (2021 to 2022).';
+  p.alt = 'Career log: Cloud Engineer at Interbank (2023 to now), Data Engineer at Prisma Medios de Pago (2022 to 2023), and Data Engineer at Tiendanube (2021 to 2022).';
   p.chrome('career.log');
 
   const cmd = 'journalctl -u career --since 2019';
@@ -424,7 +424,7 @@ const BLOCKS = [
   { k: 'img', id: 'what-i-do', src: './images/what-i-do.svg', alt: 'Five areas of work: the ML platform for Data Scientists, Infrastructure as Code, Internal Developer Platforms, CI/CD and pipeline automation, and data platform reliability.' },
 
   { k: 'h2', text: '~/experience', id: 'experience' },
-  { k: 'img', src: './images/experience.svg', alt: 'Career log: Cloud Engineer at Interbank (2023 to now), AWS Data Platform Engineer at Prisma Medios de Pago (2022 to 2023), and Data Engineer at Tiendanube (2021 to 2022).' },
+  { k: 'img', src: './images/experience.svg', alt: 'Career log: Cloud Engineer at Interbank (2023 to now), Data Engineer at Prisma Medios de Pago (2022 to 2023), and Data Engineer at Tiendanube (2021 to 2022).' },
   {
     k: 'details', summary: 'Earlier roles · 2019 – 2021', blocks: [
       { k: 'ul', items: [

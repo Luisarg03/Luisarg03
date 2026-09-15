@@ -16,7 +16,7 @@ Outside the terminal: quiet places, and tinkering with systems that should just 
 
 ## `~/experience`
 
-<img src="./images/experience.svg" width="100%" alt="Career log: Cloud Engineer at Interbank (2023 to now), AWS Data Platform Engineer at Prisma Medios de Pago (2022 to 2023), and Data Engineer at Tiendanube (2021 to 2022)." />
+<img src="./images/experience.svg" width="100%" alt="Career log: Cloud Engineer at Interbank (2023 to now), Data Engineer at Prisma Medios de Pago (2022 to 2023), and Data Engineer at Tiendanube (2021 to 2022)." />
 
 <details>
 <summary>Earlier roles · 2019 – 2021</summary>
